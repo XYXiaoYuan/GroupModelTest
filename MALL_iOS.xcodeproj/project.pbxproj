@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
+		59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */; };
+		6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */; };
+		8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */; };
+		900AE7B903C6DFB21347375817A0383F /* MALL_iOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAEF02DC09CA86523DC3C190934FCA3B /* MALL_iOS-Info.plist */; };
+		95CDA6C538589BE132D93D776E81ED99 /* Pods_MALL_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D2531E454422AA87CC898EF2AFA908 /* Pods_MALL_iOS.framework */; };
+		BE50539125FF48520097BFCD /* RSBaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539025FF48520097BFCD /* RSBaseConfig.swift */; };
+		BE50539525FF48750097BFCD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539325FF48750097BFCD /* UIColor+Extension.swift */; };
+		BE50539625FF48750097BFCD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539425FF48750097BFCD /* UIFont+Extension.swift */; };
+		BE50539D25FF48DC0097BFCD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */; };
+		BE5053A025FF49050097BFCD /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539F25FF49050097BFCD /* CGRect+Extension.swift */; };
+		BE5053A325FF492F0097BFCD /* ReusableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */; };
+		BE5053A625FF49660097BFCD /* String+Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5053A525FF49660097BFCD /* String+Calculation.swift */; };
+		BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */; };
+		BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */; };
+		BE5F386F25A5C2050043D7F2 /* RecommendSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */; };
+		BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F387725A5C2310043D7F2 /* TodayHotSearchCell.swift */; };
+		BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F388425A5D0CE0043D7F2 /* HomeReuseFooterView.swift */; };
+		BE5F390A25A6C3470043D7F2 /* SectionColorFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */; };
+		BE8F60DF2567D329005DE03F /* SplashScreen_new.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */; };
+		EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2912114379659807BE6107D55F020B /* Assets.xcassets */; };
+		FDA095598ECAF2552707DBFF2A2872F1 /* HomeReuseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29A6808D392D658247E6FF8F9A1B8303 /* Pods_MALL_iOS_AppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_AppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44ED72129122D3B71DB21971B1DB6616 /* Pods_MALL_iOS_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
+		54FD1D96C1D404015CD95265E026AFF2 /* Pods-MALL_iOS_Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Dev.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Dev/Pods-MALL_iOS_Dev.release.xcconfig"; sourceTree = "<group>"; };
+		58A7BB11649F693CD99209111E2BE80B /* Pods_MALL_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A52425D199BC36D482ECBE4AB536B3 /* Pods-MALL_iOS_TF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_TF.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_TF/Pods-MALL_iOS_TF.release.xcconfig"; sourceTree = "<group>"; };
+		7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "恒利商城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83E2552F57EDC6C5819CA6398B78F519 /* MALL_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MALL_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8F20394B28CA93B37784965F18FFB0D5 /* Pods-MALL_iOS_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Test.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Test/Pods-MALL_iOS_Test.release.xcconfig"; sourceTree = "<group>"; };
+		90D2531E454422AA87CC898EF2AFA908 /* Pods_MALL_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchCell.swift; sourceTree = "<group>"; };
+		9D6AD6D9E01BE41F91E1263B80748873 /* Pods-MALL_iOS_TF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_TF.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_TF/Pods-MALL_iOS_TF.debug.xcconfig"; sourceTree = "<group>"; };
+		9DEAF220D75C4899CD7B6AB58A09EDF9 /* Pods-MALL_iOS_AppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_AppStore.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_AppStore/Pods-MALL_iOS_AppStore.release.xcconfig"; sourceTree = "<group>"; };
+		9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-MALL_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS/Pods-MALL_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		A6566011FA6210F4DE5FD485675167C7 /* Pods-MALL_iOS_Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Dev.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Dev/Pods-MALL_iOS_Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		ACD4D501C687F197E1684CA01B8EFF21 /* Pods-MALL_iOS_AppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_AppStore.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_AppStore/Pods-MALL_iOS_AppStore.debug.xcconfig"; sourceTree = "<group>"; };
+		B51652FC48551FFE7534FFF71AF05EE2 /* Pods_MALL_iOS_TF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_TF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDBBA51698D639E9A827831A45E04FD /* Pods-MALL_iOS_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Test.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Test/Pods-MALL_iOS_Test.debug.xcconfig"; sourceTree = "<group>"; };
+		BE50539025FF48520097BFCD /* RSBaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSBaseConfig.swift; sourceTree = "<group>"; };
+		BE50539325FF48750097BFCD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BE50539425FF48750097BFCD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BE50539F25FF49050097BFCD /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+Reusable.swift"; sourceTree = "<group>"; };
+		BE5053A525FF49660097BFCD /* String+Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Calculation.swift"; sourceTree = "<group>"; };
+		BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupProvider.swift; sourceTree = "<group>"; };
+		BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchModel.swift; sourceTree = "<group>"; };
+		BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSearchCell.swift; sourceTree = "<group>"; };
+		BE5F387725A5C2310043D7F2 /* TodayHotSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayHotSearchCell.swift; sourceTree = "<group>"; };
+		BE5F388425A5D0CE0043D7F2 /* HomeReuseFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReuseFooterView.swift; sourceTree = "<group>"; };
+		BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionColorFlowLayout.swift; sourceTree = "<group>"; };
+		BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen_new.storyboard; sourceTree = "<group>"; };
+		CD2912114379659807BE6107D55F020B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53028082EB09EEA2FF159290E721147 /* Pods-MALL_iOS_Pre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Pre.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Pre/Pods-MALL_iOS_Pre.release.xcconfig"; sourceTree = "<group>"; };
+		DAF7F4E031533106260D3D2DD0D55715 /* Pods-MALL_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS/Pods-MALL_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReuseHeaderView.swift; sourceTree = "<group>"; };
+		E576BA4B53505C9B734EEF91AE46975F /* Pods-MALL_iOS_Pre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Pre.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Pre/Pods-MALL_iOS_Pre.debug.xcconfig"; sourceTree = "<group>"; };
+		EC09EE6FB021506298A6420798E035FA /* Pods_MALL_iOS_Pre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Pre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEF02DC09CA86523DC3C190934FCA3B /* MALL_iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MALL_iOS-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB5B4170EA7410C1515BCA62EEA8802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CDA6C538589BE132D93D776E81ED99 /* Pods_MALL_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		342F8FD0357B033997698385F1458DE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F38BF25A6A6B70043D7F2 /* FlowLayout */,
+				BE5F383725A5BD820043D7F2 /* Protocol */,
+				E880518E6052580C59991C904B1FEB49 /* Controller */,
+				9C4407854EB425F766529974B280EDDD /* Model */,
+				5EA38DBA7835056BEB9A19549D08F8FC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5EA38DBA7835056BEB9A19549D08F8FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */,
+				BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */,
+				BE5F387725A5C2310043D7F2 /* TodayHotSearchCell.swift */,
+				DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */,
+				BE5F388425A5D0CE0043D7F2 /* HomeReuseFooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79CC905B649F21C6A5053ECCB20404E8 /* MALL_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE50538E25FF483D0097BFCD /* BaseConfig */,
+				BE50538D25FF481F0097BFCD /* Extensions */,
+				342F8FD0357B033997698385F1458DE9 /* Home */,
+				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
+				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
+				83E2552F57EDC6C5819CA6398B78F519 /* MALL_iOS-Bridging-Header.h */,
+				BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */,
+				FAEF02DC09CA86523DC3C190934FCA3B /* MALL_iOS-Info.plist */,
+			);
+			path = MALL_iOS;
+			sourceTree = "<group>";
+		};
+		95CF7EB8857ACBAD57C0CF8B9FD10568 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90D2531E454422AA87CC898EF2AFA908 /* Pods_MALL_iOS.framework */,
+				29A6808D392D658247E6FF8F9A1B8303 /* Pods_MALL_iOS_AppStore.framework */,
+				44ED72129122D3B71DB21971B1DB6616 /* Pods_MALL_iOS_Dev.framework */,
+				EC09EE6FB021506298A6420798E035FA /* Pods_MALL_iOS_Pre.framework */,
+				B51652FC48551FFE7534FFF71AF05EE2 /* Pods_MALL_iOS_TF.framework */,
+				58A7BB11649F693CD99209111E2BE80B /* Pods_MALL_iOS_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A8A6F0FC79A7C6B886319EEA1158056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4407854EB425F766529974B280EDDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */,
+				BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE50538D25FF481F0097BFCD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE50539325FF48750097BFCD /* UIColor+Extension.swift */,
+				BE50539425FF48750097BFCD /* UIFont+Extension.swift */,
+				BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */,
+				BE50539F25FF49050097BFCD /* CGRect+Extension.swift */,
+				BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */,
+				BE5053A525FF49660097BFCD /* String+Calculation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE50538E25FF483D0097BFCD /* BaseConfig */ = {
+			isa = PBXGroup;
+			children = (
+				BE50539025FF48520097BFCD /* RSBaseConfig.swift */,
+			);
+			path = BaseConfig;
+			sourceTree = "<group>";
+		};
+		BE5F383725A5BD820043D7F2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		BE5F38BF25A6A6B70043D7F2 /* FlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */,
+			);
+			path = FlowLayout;
+			sourceTree = "<group>";
+		};
+		D8EF32584355891793038E237150B3F5 = {
+			isa = PBXGroup;
+			children = (
+				95CF7EB8857ACBAD57C0CF8B9FD10568 /* Frameworks */,
+				79CC905B649F21C6A5053ECCB20404E8 /* MALL_iOS */,
+				FF0EBC60B684D74D1015850605185419 /* Pods */,
+				9A8A6F0FC79A7C6B886319EEA1158056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E880518E6052580C59991C904B1FEB49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF0EBC60B684D74D1015850605185419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAF7F4E031533106260D3D2DD0D55715 /* Pods-MALL_iOS.debug.xcconfig */,
+				9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-MALL_iOS.release.xcconfig */,
+				ACD4D501C687F197E1684CA01B8EFF21 /* Pods-MALL_iOS_AppStore.debug.xcconfig */,
+				9DEAF220D75C4899CD7B6AB58A09EDF9 /* Pods-MALL_iOS_AppStore.release.xcconfig */,
+				A6566011FA6210F4DE5FD485675167C7 /* Pods-MALL_iOS_Dev.debug.xcconfig */,
+				54FD1D96C1D404015CD95265E026AFF2 /* Pods-MALL_iOS_Dev.release.xcconfig */,
+				E576BA4B53505C9B734EEF91AE46975F /* Pods-MALL_iOS_Pre.debug.xcconfig */,
+				D53028082EB09EEA2FF159290E721147 /* Pods-MALL_iOS_Pre.release.xcconfig */,
+				9D6AD6D9E01BE41F91E1263B80748873 /* Pods-MALL_iOS_TF.debug.xcconfig */,
+				62A52425D199BC36D482ECBE4AB536B3 /* Pods-MALL_iOS_TF.release.xcconfig */,
+				BCDBBA51698D639E9A827831A45E04FD /* Pods-MALL_iOS_Test.debug.xcconfig */,
+				8F20394B28CA93B37784965F18FFB0D5 /* Pods-MALL_iOS_Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0083043593497717D3EBF34BA58A1E49 /* MALL_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF6EA57498ECEBD00C13EC9F1F878CE /* Build configuration list for PBXNativeTarget "MALL_iOS" */;
+			buildPhases = (
+				EA800E6BF83A241A35EDD1E49C73FB72 /* [CP] Check Pods Manifest.lock */,
+				238DBA48DA176CDD78D6D6EB66780680 /* Sources */,
+				8BB5B4170EA7410C1515BCA62EEA8802 /* Frameworks */,
+				57DE2A2B64FC9A4FB18831199353ECD1 /* Resources */,
+				21A6796C252A592C1CAFB337DF1765D1 /* [CP] Embed Pods Frameworks */,
+				99032FC1882C1C52F2E8FB5D4212DA1D /* AutoUploadDSYM */,
+				407942527A27592D1707E3B508D28C0B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MALL_iOS;
+			productName = PhotoRetrieval;
+			productReference = 7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA89BCB04F6BA162149820F088F57E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = cfans;
+				TargetAttributes = {
+					0083043593497717D3EBF34BA58A1E49 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 797CFE85D792BDC0E4A3F962F6BF8947 /* Build configuration list for PBXProject "MALL_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ko,
+				ja,
+			);
+			mainGroup = D8EF32584355891793038E237150B3F5;
+			productRefGroup = 9A8A6F0FC79A7C6B886319EEA1158056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0083043593497717D3EBF34BA58A1E49 /* MALL_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DE2A2B64FC9A4FB18831199353ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */,
+				900AE7B903C6DFB21347375817A0383F /* MALL_iOS-Info.plist in Resources */,
+				BE8F60DF2567D329005DE03F /* SplashScreen_new.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21A6796C252A592C1CAFB337DF1765D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALL_iOS/Pods-MALL_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MALL_iOS/Pods-MALL_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MALL_iOS/Pods-MALL_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		407942527A27592D1707E3B508D28C0B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"e43651766a\"\n# #\nBUGLY_APP_KEY=\"e54aec62-6e09-4671-85c8-e9c528f39a10\"\n# #\nBUNDLE_IDENTIFIER=\"com.rebate.hl\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n# UPLOAD_DEBUG_SYMBOLS=0\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n# UPLOAD_SIMULATOR_SYMBOLS=0\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\n    BUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n\n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n    P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n\n    DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n    echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n\n    echo \"-----------------------------\"\n    STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n    echo \"-----------------------------\"\n\n    UPLOAD_RESULT=\"FAILTURE\"\n    echo \"Bugly server response: ${STATUS}\"\n    if [ ! \"${STATUS}\" ]; then\n        echo \"Error: Failed to upload the zip archive file.\"\n    elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n        echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n        UPLOAD_RESULT=\"SUCCESS\"\n    else\n        echo \"Error: Failed to upload the zip archive file to Bugly.\"\n    fi\n\n    #Remove temp dSYM archive\n    #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n    #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n\n    if [ \"$?\" -ne 0 ]; then\n        exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n    fi\n\n    echo \"--------------------------------\"\n    echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n\n    if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n        echo \"--------------------------------\"\n        echo \"Failed to upload the dSYM\"\n        echo \"Please check the script and try it again.\"\n    fi\n}\n\n# .dSYM解析为bSYMBOL文件\nfunction dSYMParse() {\n    DSYM_FILE=\"$1\"\n    DSYM_SYMBOL_FILE=\"$2\"\n\n    echo \"--------------------------------\"\n    echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n    (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n    echo \"--------------------------------\"\n\n}\n\n# 执行\nfunction run() {\n\n    CONFIG_BUGLY_APP_ID=\"$1\"\n    CONFIG_BUGLY_APP_KEY=\"$2\"\n\n    CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n    CONFIG_BUGLY_APP_VERSION=\"$4\"\n    CONFIG_DSYM_SOURCE_DIR=\"$5\"\n    CONFIG_DSYM_DEST_DIR=\"$6\"\n    CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n\n    # 检查必须参数是否设置\n    if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n        exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n    fi\n\n    if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n        exitWithMessage \"Error: Bugly App ID not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n        exitWithMessage \"Error: Bugly App Key not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n        exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n    fi\n\n    if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n        exitWithMessage \"Error: App Version not defined.\" 0\n    fi\n\n    if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n        exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n    fi\n\n    if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n        exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n    fi\n\n    if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n        mkdir ${CONFIG_DSYM_DEST_DIR}\n    fi\n\n    DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n    IFS=$'\\n'\n\n    echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n    RET=\"F\"\n    \n    #\n    for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n        RET=\"T\"\n        echo \"Found dSYM file: $dsymFile\"\n\n        DSYM_FILE_NAME=${dsymFile##*/}\n        DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n        DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n        DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n\n        if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n            if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n            fi\n            # 如果只上传dSYM，直接压缩dSYM目录\n            zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n        else\n            # 使用符号表工具来生成Symbol文件\n            dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n        fi\n        \n        # 上传\n        dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n    done\n\n    if [ $RET = \"F\" ]; then\n        exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n    fi\n}\n\n# 在Xcode工程中执行\nfunction runInXcode(){\n    echo \"Uploading dSYM to Bugly in Xcode ...\"\n\n    echo \"Info.Plist : ${INFOPLIST_FILE}\"\n\n    BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n    BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n\n    # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n    if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n        BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n    else\n        BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n    fi\n\n    echo \"--------------------------------\"\n    echo \"Prepare application information.\"\n    echo \"--------------------------------\"\n\n    echo \"Product Name: ${PRODUCT_NAME}\"\n    echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n    echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n    echo \"Build: ${BUNDLE_VERSION}\"\n\n    echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n    echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n    echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n\n    echo \"--------------------------------\"\n    echo \"Check the arguments ...\"\n\n    ##检查模拟器编译是否允许上传符号\n    if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n    if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n        exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n    fi\n    fi\n\n    ##检查是否是Release模式编译\n    if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n    if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n        exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n    fi\n    fi\n\n    ##检查是否Archive操作\n    if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n    if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n        echo \"Archive the package\"\n    else\n        exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n    fi\n    fi\n\n    #\n    run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n}\n\n# 根据Xcode的环境变量判断是否处于Xcode环境\nINFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n\nBuildInXcode=\"F\"\nif [ -f \"${INFO_PLIST_FILE}\" ]; then\n    BuildInXcode=\"T\"\nfi\n\nif [ $BuildInXcode = \"T\" ]; then\n    runInXcode\nelse\n    echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n    # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n    BUGLY_APP_ID=\"$1\"\n    BUGLY_APP_KEY=\"$2\"\n    BUNDLE_IDENTIFIER=\"$3\"\n    BUGLY_APP_VERSION=\"$4\"\n    DWARF_DSYM_FOLDER_PATH=\"$5\"\n    SYMBOL_OUTPUT_PATH=\"$6\"\n    UPLOAD_DSYM_ONLY=$7\n    run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\nfi\n\n";
+		};
+		99032FC1882C1C52F2E8FB5D4212DA1D /* AutoUploadDSYM */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = AutoUploadDSYM;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nBUGLY_APP_ID=\"e43651766a\"\nBUGLY_APP_KEY=\"e54aec62-6e09-4671-85c8-e9c528f39a10\"\nBUNDLE_IDENTIFIER=\"com.rebate.hl\"\n\n# 自定义配置\n# Debug模型编译是否上传, 1=上传, 0=不上传,默认不上传\nUPLOAD_DEBUG_SYMBOLS=0\n\n# 模拟器编译是否上传, 1=上传,0=不上传,默认不上传\nUPLOAD_SIMULATOR_SYMBOLS=0\n";
+		};
+		EA800E6BF83A241A35EDD1E49C73FB72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MALL_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238DBA48DA176CDD78D6D6EB66780680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */,
+				BE5053A025FF49050097BFCD /* CGRect+Extension.swift in Sources */,
+				BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */,
+				BE5053A325FF492F0097BFCD /* ReusableView+Reusable.swift in Sources */,
+				52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */,
+				BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */,
+				BE5F390A25A6C3470043D7F2 /* SectionColorFlowLayout.swift in Sources */,
+				6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */,
+				BE5F386F25A5C2050043D7F2 /* RecommendSearchCell.swift in Sources */,
+				BE50539125FF48520097BFCD /* RSBaseConfig.swift in Sources */,
+				BE50539D25FF48DC0097BFCD /* UIButton+Extension.swift in Sources */,
+				8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */,
+				BE5053A625FF49660097BFCD /* String+Calculation.swift in Sources */,
+				BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */,
+				BE50539525FF48750097BFCD /* UIColor+Extension.swift in Sources */,
+				FDA095598ECAF2552707DBFF2A2872F1 /* HomeReuseHeaderView.swift in Sources */,
+				BE50539625FF48750097BFCD /* UIFont+Extension.swift in Sources */,
+				59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2389953145AD0FAFEEF833CD84D64624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A61FBB93E6D260333EF88A8D72BBD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33A484141B977871883DCF9A52FC2344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF7F4E031533106260D3D2DD0D55715 /* Pods-MALL_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = 9L3VCJC7LF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MALL_iOS/MALL_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.30;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
+				PRODUCT_NAME = "恒利商城";
+				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/MALL_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A512DFA219A87C3FE5820BE64B85C746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-MALL_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 30;
+				DEVELOPMENT_TEAM = 9L3VCJC7LF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MALL_iOS/MALL_iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.30;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
+				PRODUCT_NAME = "恒利商城";
+				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
+				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/MALL_iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CF6EA57498ECEBD00C13EC9F1F878CE /* Build configuration list for PBXNativeTarget "MALL_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A484141B977871883DCF9A52FC2344 /* Debug */,
+				A512DFA219A87C3FE5820BE64B85C746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797CFE85D792BDC0E4A3F962F6BF8947 /* Build configuration list for PBXProject "MALL_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A61FBB93E6D260333EF88A8D72BBD00 /* Debug */,
+				2389953145AD0FAFEEF833CD84D64624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA89BCB04F6BA162149820F088F57E96 /* Project object */;
+}
