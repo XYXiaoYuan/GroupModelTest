@@ -2,23 +2,14 @@
 我在实践工作利用swift枚举的关联值和自定义组模型方法来实现了
 
 - 下面是gif图效果
-<img src="https://media.giphy.com/media/AYjXxGRE9USUXbA3N5/giphy.gif"  width = "414" alt="show" align=center />
-
-- 下面是图片效果
-
-<img src="https://upload-images.jianshu.io/upload_images/967836-7db882aab82cd1f5.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "414" alt="第一张" align=center />
-
-<img src="https://upload-images.jianshu.io/upload_images/967836-ed24b86e6600c0fb.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "414" alt="第二张" align=center />
-
-<img src="https://upload-images.jianshu.io/upload_images/967836-0a7c21751877332e.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "414" alt="第三张" align=center />
-
-<img src="https://upload-images.jianshu.io/upload_images/967836-e101cdbbc01510af.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" width = "414" alt="第四张" align=center />
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7a16ea36ded44225b8036f2ada97d3b9~tplv-k3u1fbpfcp-zoom-1.image)
 
 可以看到,有些组是杂乱无章的排列着,而且运营那边要求,他们可以在后台自定义这些组的顺序
 这可怎么办!🥺
 下面看我的实现方式
 
-# 定义一个组模型枚举,包含可能的定义,每个枚举关联当时组需要显示的数据模型,有可能是一个对象数组,也有可能是一个对象
+# 定义一个组模型枚举
+- 包含可能的定义,每个枚举关联当前组需要显示的数据模型,有可能是一个对象数组,也有可能是一个对象
 ``` swift
 /// 新版首页组cell的类型
 enum OriginGroupCellType {
@@ -66,8 +57,8 @@ enum OriginGroupCellType {
     }
 }
 ```
-# 接下来就是组模型的定义,同时我抽取一个协议`GroupProvider`,方便利用
-- GroupProvider
+# 接下来就是组模型的定义
+- 同时我抽取一个协议`GroupProvider`,方便复用
 ``` swift
 protocol GroupProvider {
     /// 占位
@@ -163,14 +154,15 @@ struct OriginGroupSortModel {
     }
 }
 ```
-# 控制器里定义一个 组模型数组, 这里有关键代码是 
+# 控制器里定义一个 组模型数组
+- 这里有关键代码是 
 ``` swift 
 listMs.sort(by: { return $0.sortIndex < $1.sortIndex }) 
 ```
 - 所有的数据加载完毕后,会根据我们的自定义排序规则去排序
 
 ``` swift
-/// 组模型数据
+    /// 组模型数据
     public var listMs: [OriginGroupModel] = [] {
         didSet {
             listMs.sort(by: {
@@ -218,7 +210,7 @@ func loadData(_ update: Bool = false, _ isUHead: Bool = false) {
         }
     }
 ```
-# 这时在控制里的一些collectionView的代理方法里,你就可以这样了,精准定准某块区域,例如
+# collectionView的代理方法处理
 ```swift
 func numberOfSections(in collectionView: UICollectionView) -> Int {
         return listMs.count
@@ -244,7 +236,7 @@ func numberOfSections(in collectionView: UICollectionView) -> Int {
 ```
 - 同理,collectionView的代理方法中,都是先拿到 cellType 来判断,达到精准定位, 举个`栗子`
 ``` swift
-/// Cell大小
+    /// Cell大小
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let groupModel = listMs[indexPath.section]
         let width = screenWidth - 2 * margin
@@ -292,9 +284,10 @@ func numberOfSections(in collectionView: UICollectionView) -> Int {
 + 用枚举的方式,定义每个组,更清晰,加上swift的关联值优势,可以不用在控制器里定义多个数组
 
 + 考虑到要下拉刷新,所以抽取了一个协议 GroupProvider,里面提供两个默认的实现方法
-方法一:获取当前cellType在listMs中的下标,方法二:是否要添加到listMs中
+  - 方法一:获取当前cellType在listMs中的下标
+  - 方法二:是否要添加到listMs中
 
-+ 界面长什么样,全部由数据来驱动,这组没有数据,界面就对应的不显示,有数据就按预先设计好的显示
++ 界面长什么样,全部由数据来驱动,这组没有数据,界面就对应的不显示(`皮之不存,毛将焉附`),有数据就按预先设计好的显示
 
 # 源码地址
 https://github.com/XYXiaoYuan/GroupModelTest

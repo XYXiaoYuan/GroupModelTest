@@ -7,7 +7,7 @@ def thirdPartyPods
 end
 
 # 正式工程
-target 'MALL_iOS' do
+target 'GroupModelTest' do
 	use_frameworks!
   
   #第三方库
