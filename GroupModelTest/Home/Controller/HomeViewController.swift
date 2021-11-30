@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
     
     /// 组模型排序规则(可以由后台配置返回,在这里我们先给一个默认值)
     /// 需要做一个请求依赖,先请求排序接口,再请求各组的数据
-    private lazy var sortModel: HomeGroupSortModel = HomeGroupSortModel.defaultSort()
+    private lazy var sortModel: HomeGroupSortModel = HomeGroupSortModel.defaultSort
     
     override func viewDidLoad() {
         super.viewDidLoad()

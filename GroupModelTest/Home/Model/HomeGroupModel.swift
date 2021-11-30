@@ -64,10 +64,10 @@ struct HomeGroupSortModel {
     var recommendSearchIndex: Int
     var todayHotSearchIndex: Int
     
-    public static func defaultSort() -> HomeGroupSortModel {
+    public static var defaultSort: HomeGroupSortModel {
         return  HomeGroupSortModel(historySearchIndex: 0,
-                                     recommendSearchIndex: 1,
-                                     todayHotSearchIndex: 2)
+                                   recommendSearchIndex: 1,
+                                   todayHotSearchIndex: 2)
         
     }
 }
