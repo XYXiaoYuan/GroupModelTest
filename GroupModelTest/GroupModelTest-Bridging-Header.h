@@ -10,5 +10,13 @@
 
 // 导入swift库
 #import <SnapKit/SnapKit-Swift.h>
+#import <HandyJSON/HandyJSON-Swift.h>
+#import <RSBaseConfig/RSBaseConfig-Swift.h>
+#import <RSExtension/RSExtension-Swift.h>
+#import <RSUIProvider/RSUIProvider-Swift.h>
+#import <AlertViewComponent/AlertViewComponent-Swift.h>
+#import <BaseViewController/BaseViewController-Swift.h>
+#import <Kingfisher/Kingfisher-Swift.h>
+#import <IQKeyboardManagerSwift/IQKeyboardManagerSwift-Swift.h>
 
 #endif

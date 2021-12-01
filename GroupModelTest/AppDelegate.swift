@@ -29,8 +29,16 @@ extension AppDelegate {
         window?.backgroundColor = .white
         window?.makeKeyAndVisible()
         
-        let nav = UINavigationController(rootViewController: HomeViewController())
+        let nav = UINavigationController(rootViewController: FinanciaViewController())
+//        let nav = UINavigationController(rootViewController: HomeViewController())
         window?.rootViewController = nav
     }
 }
 
+
+public extension String {
+    /// [usage]: "xxx".localized
+    var localized: String {
+        return self
+    }
+}

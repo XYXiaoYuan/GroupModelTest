@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: BaseViewController {
     /// 组模型数据
     private var listMs: [HomeGroupModel] = [] {
         didSet {

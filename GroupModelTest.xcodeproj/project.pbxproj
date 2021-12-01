@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */; };
+		1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4262757E56C0057149B /* FixFinancialViewController.swift */; };
+		1C71D4732757E56D0057149B /* FixFinancialTakeOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4272757E56C0057149B /* FixFinancialTakeOutVC.swift */; };
+		1C71D4742757E56D0057149B /* FixFinancialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4292757E56C0057149B /* FixFinancialModel.swift */; };
+		1C71D4752757E56D0057149B /* FixFinancialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D42B2757E56C0057149B /* FixFinancialView.swift */; };
+		1C71D47B2757E56D0057149B /* FinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4342757E56C0057149B /* FinancialViewController.swift */; };
+		1C71D47C2757E56D0057149B /* FinancialHomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4362757E56C0057149B /* FinancialHomeGroupModel.swift */; };
+		1C71D47D2757E56D0057149B /* FinancialProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4372757E56C0057149B /* FinancialProductListModel.swift */; };
+		1C71D47E2757E56D0057149B /* FinancialResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4382757E56C0057149B /* FinancialResultModel.swift */; };
+		1C71D47F2757E56D0057149B /* FinancialProductHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D43A2757E56C0057149B /* FinancialProductHeaderView.swift */; };
+		1C71D4802757E56D0057149B /* FinancialProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D43B2757E56C0057149B /* FinancialProductCell.swift */; };
+		1C71D4812757E56D0057149B /* FinancialProfitReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D43C2757E56C0057149B /* FinancialProfitReusableView.swift */; };
+		1C71D4822757E56D0057149B /* FinancialAssetReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D43D2757E56C0057149B /* FinancialAssetReusableView.swift */; };
+		1C71D4832757E56D0057149B /* MyFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4412757E56C0057149B /* MyFinancialViewController.swift */; };
+		1C71D4842757E56D0057149B /* MyFinancianHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4432757E56C0057149B /* MyFinancianHeaderModel.swift */; };
+		1C71D4852757E56D0057149B /* MyFinancialProductListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4442757E56C0057149B /* MyFinancialProductListModel.swift */; };
+		1C71D4862757E56D0057149B /* MyFinancialResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4452757E56C0057149B /* MyFinancialResultModel.swift */; };
+		1C71D4872757E56D0057149B /* MyFinancialGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4462757E56C0057149B /* MyFinancialGroupModel.swift */; };
+		1C71D4882757E56D0057149B /* MyFinancialCurrentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4482757E56C0057149B /* MyFinancialCurrentCell.swift */; };
+		1C71D4892757E56D0057149B /* MyFinancialFixCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4492757E56C0057149B /* MyFinancialFixCell.swift */; };
+		1C71D48A2757E56D0057149B /* MyFinancialWealthReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D44A2757E56C0057149B /* MyFinancialWealthReusableView.swift */; };
+		1C71D48B2757E56D0057149B /* MyFinancialAssetReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D44B2757E56C0057149B /* MyFinancialAssetReusableView.swift */; };
+		1C71D48C2757E56D0057149B /* MyFinancialNoRecordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D44C2757E56C0057149B /* MyFinancialNoRecordCell.swift */; };
+		1C71D48D2757E56D0057149B /* MyFinancialWealthFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D44D2757E56C0057149B /* MyFinancialWealthFooterView.swift */; };
+		1C71D48E2757E56D0057149B /* FinancialTransactionDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4502757E56C0057149B /* FinancialTransactionDetailVC.swift */; };
+		1C71D48F2757E56D0057149B /* FinancialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4512757E56C0057149B /* FinancialDetailViewController.swift */; };
+		1C71D4902757E56D0057149B /* FinancialDetailResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4532757E56C0057149B /* FinancialDetailResultModel.swift */; };
+		1C71D4912757E56D0057149B /* FinancialDetailOperationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4542757E56C0057149B /* FinancialDetailOperationAction.swift */; };
+		1C71D4922757E56D0057149B /* FinancialFixTimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4552757E56C0057149B /* FinancialFixTimeModel.swift */; };
+		1C71D4932757E56D0057149B /* FinancialDetailProfitDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4562757E56C0057149B /* FinancialDetailProfitDetailModel.swift */; };
+		1C71D4942757E56D0057149B /* FinancialDetailGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4572757E56C0057149B /* FinancialDetailGroupModel.swift */; };
+		1C71D4952757E56D0057149B /* FinancialDetailHeaderReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4592757E56C0057149B /* FinancialDetailHeaderReusableView.swift */; };
+		1C71D4962757E56D0057149B /* FinancialDetailTimeLineReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45A2757E56C0057149B /* FinancialDetailTimeLineReusableView.swift */; };
+		1C71D4972757E56D0057149B /* FinancialTransactionDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45B2757E56C0057149B /* FinancialTransactionDetailCell.swift */; };
+		1C71D4982757E56D0057149B /* FinancialDetailOperationItemReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45C2757E56C0057149B /* FinancialDetailOperationItemReusableView.swift */; };
+		1C71D4992757E56D0057149B /* FinancialDetailProfitReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45D2757E56C0057149B /* FinancialDetailProfitReusableView.swift */; };
+		1C71D49A2757E56D0057149B /* FinancialDetailProfitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45E2757E56C0057149B /* FinancialDetailProfitCell.swift */; };
+		1C71D49B2757E56D0057149B /* FinancialTransactionDetailReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D45F2757E56C0057149B /* FinancialTransactionDetailReusableView.swift */; };
+		1C71D4A12757E6980057149B /* GradientProvide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D49E2757E6980057149B /* GradientProvide.swift */; };
+		1C71D4A22757E6980057149B /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D49F2757E6980057149B /* GradientButton.swift */; };
+		1C71D4A32757E6980057149B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4A02757E6980057149B /* GradientView.swift */; };
+		1C71D4A62757E86C0057149B /* String+Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4A52757E86C0057149B /* String+Calculation.swift */; };
+		1C71D4B82757E8DB0057149B /* CurrentFinancialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4AC2757E8DB0057149B /* CurrentFinancialView.swift */; };
+		1C71D4C32757E9070057149B /* FinancialPayMentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C12757E9070057149B /* FinancialPayMentModel.swift */; };
+		1C71D4C42757E9070057149B /* CurrentFinancialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C22757E9070057149B /* CurrentFinancialModel.swift */; };
+		1C71D4C72757E9790057149B /* RoundCornerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C62757E9790057149B /* RoundCornerProvider.swift */; };
 		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
 		59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */; };
 		6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */; };
 		8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */; };
 		900AE7B903C6DFB21347375817A0383F /* GroupModelTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */; };
-		BE50539125FF48520097BFCD /* RSBaseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539025FF48520097BFCD /* RSBaseConfig.swift */; };
-		BE50539525FF48750097BFCD /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539325FF48750097BFCD /* UIColor+Extension.swift */; };
-		BE50539625FF48750097BFCD /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539425FF48750097BFCD /* UIFont+Extension.swift */; };
-		BE50539D25FF48DC0097BFCD /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */; };
-		BE5053A025FF49050097BFCD /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE50539F25FF49050097BFCD /* CGRect+Extension.swift */; };
-		BE5053A325FF492F0097BFCD /* ReusableView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */; };
-		BE5053A625FF49660097BFCD /* String+Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5053A525FF49660097BFCD /* String+Calculation.swift */; };
 		BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */; };
 		BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */; };
 		BE5F386F25A5C2050043D7F2 /* RecommendSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */; };
@@ -32,19 +71,58 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialViewController.swift; sourceTree = "<group>"; };
+		1C71D4262757E56C0057149B /* FixFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialViewController.swift; sourceTree = "<group>"; };
+		1C71D4272757E56C0057149B /* FixFinancialTakeOutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialTakeOutVC.swift; sourceTree = "<group>"; };
+		1C71D4292757E56C0057149B /* FixFinancialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialModel.swift; sourceTree = "<group>"; };
+		1C71D42B2757E56C0057149B /* FixFinancialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialView.swift; sourceTree = "<group>"; };
+		1C71D4342757E56C0057149B /* FinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialViewController.swift; sourceTree = "<group>"; };
+		1C71D4362757E56C0057149B /* FinancialHomeGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialHomeGroupModel.swift; sourceTree = "<group>"; };
+		1C71D4372757E56C0057149B /* FinancialProductListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialProductListModel.swift; sourceTree = "<group>"; };
+		1C71D4382757E56C0057149B /* FinancialResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialResultModel.swift; sourceTree = "<group>"; };
+		1C71D43A2757E56C0057149B /* FinancialProductHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialProductHeaderView.swift; sourceTree = "<group>"; };
+		1C71D43B2757E56C0057149B /* FinancialProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialProductCell.swift; sourceTree = "<group>"; };
+		1C71D43C2757E56C0057149B /* FinancialProfitReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialProfitReusableView.swift; sourceTree = "<group>"; };
+		1C71D43D2757E56C0057149B /* FinancialAssetReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialAssetReusableView.swift; sourceTree = "<group>"; };
+		1C71D4412757E56C0057149B /* MyFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialViewController.swift; sourceTree = "<group>"; };
+		1C71D4432757E56C0057149B /* MyFinancianHeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancianHeaderModel.swift; sourceTree = "<group>"; };
+		1C71D4442757E56C0057149B /* MyFinancialProductListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialProductListModel.swift; sourceTree = "<group>"; };
+		1C71D4452757E56C0057149B /* MyFinancialResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialResultModel.swift; sourceTree = "<group>"; };
+		1C71D4462757E56C0057149B /* MyFinancialGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialGroupModel.swift; sourceTree = "<group>"; };
+		1C71D4482757E56C0057149B /* MyFinancialCurrentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialCurrentCell.swift; sourceTree = "<group>"; };
+		1C71D4492757E56C0057149B /* MyFinancialFixCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialFixCell.swift; sourceTree = "<group>"; };
+		1C71D44A2757E56C0057149B /* MyFinancialWealthReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialWealthReusableView.swift; sourceTree = "<group>"; };
+		1C71D44B2757E56C0057149B /* MyFinancialAssetReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialAssetReusableView.swift; sourceTree = "<group>"; };
+		1C71D44C2757E56C0057149B /* MyFinancialNoRecordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialNoRecordCell.swift; sourceTree = "<group>"; };
+		1C71D44D2757E56C0057149B /* MyFinancialWealthFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFinancialWealthFooterView.swift; sourceTree = "<group>"; };
+		1C71D4502757E56C0057149B /* FinancialTransactionDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialTransactionDetailVC.swift; sourceTree = "<group>"; };
+		1C71D4512757E56C0057149B /* FinancialDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailViewController.swift; sourceTree = "<group>"; };
+		1C71D4532757E56C0057149B /* FinancialDetailResultModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailResultModel.swift; sourceTree = "<group>"; };
+		1C71D4542757E56C0057149B /* FinancialDetailOperationAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailOperationAction.swift; sourceTree = "<group>"; };
+		1C71D4552757E56C0057149B /* FinancialFixTimeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialFixTimeModel.swift; sourceTree = "<group>"; };
+		1C71D4562757E56C0057149B /* FinancialDetailProfitDetailModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailProfitDetailModel.swift; sourceTree = "<group>"; };
+		1C71D4572757E56C0057149B /* FinancialDetailGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailGroupModel.swift; sourceTree = "<group>"; };
+		1C71D4592757E56C0057149B /* FinancialDetailHeaderReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailHeaderReusableView.swift; sourceTree = "<group>"; };
+		1C71D45A2757E56C0057149B /* FinancialDetailTimeLineReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailTimeLineReusableView.swift; sourceTree = "<group>"; };
+		1C71D45B2757E56C0057149B /* FinancialTransactionDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialTransactionDetailCell.swift; sourceTree = "<group>"; };
+		1C71D45C2757E56C0057149B /* FinancialDetailOperationItemReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailOperationItemReusableView.swift; sourceTree = "<group>"; };
+		1C71D45D2757E56C0057149B /* FinancialDetailProfitReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailProfitReusableView.swift; sourceTree = "<group>"; };
+		1C71D45E2757E56C0057149B /* FinancialDetailProfitCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialDetailProfitCell.swift; sourceTree = "<group>"; };
+		1C71D45F2757E56C0057149B /* FinancialTransactionDetailReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialTransactionDetailReusableView.swift; sourceTree = "<group>"; };
+		1C71D49E2757E6980057149B /* GradientProvide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientProvide.swift; sourceTree = "<group>"; };
+		1C71D49F2757E6980057149B /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		1C71D4A02757E6980057149B /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		1C71D4A52757E86C0057149B /* String+Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Calculation.swift"; sourceTree = "<group>"; };
+		1C71D4AC2757E8DB0057149B /* CurrentFinancialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialView.swift; sourceTree = "<group>"; };
+		1C71D4C12757E9070057149B /* FinancialPayMentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialPayMentModel.swift; sourceTree = "<group>"; };
+		1C71D4C22757E9070057149B /* CurrentFinancialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialModel.swift; sourceTree = "<group>"; };
+		1C71D4C62757E9790057149B /* RoundCornerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerProvider.swift; sourceTree = "<group>"; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
-		7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroupModelTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupModelTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchCell.swift; sourceTree = "<group>"; };
 		9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-GroupModelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupModelTest.release.xcconfig"; path = "Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest.release.xcconfig"; sourceTree = "<group>"; };
-		BE50539025FF48520097BFCD /* RSBaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSBaseConfig.swift; sourceTree = "<group>"; };
-		BE50539325FF48750097BFCD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		BE50539425FF48750097BFCD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
-		BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		BE50539F25FF49050097BFCD /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
-		BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReusableView+Reusable.swift"; sourceTree = "<group>"; };
-		BE5053A525FF49660097BFCD /* String+Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Calculation.swift"; sourceTree = "<group>"; };
 		BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupProvider.swift; sourceTree = "<group>"; };
 		BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchModel.swift; sourceTree = "<group>"; };
 		BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSearchCell.swift; sourceTree = "<group>"; };
@@ -72,6 +150,257 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C71D40D2757E56C0057149B /* FinancialProduct */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D40E2757E56C0057149B /* CurrentFinancial */,
+				1C71D4242757E56C0057149B /* FixFinancial */,
+			);
+			path = FinancialProduct;
+			sourceTree = "<group>";
+		};
+		1C71D40E2757E56C0057149B /* CurrentFinancial */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4C02757E9070057149B /* Model */,
+				1C71D4A72757E8DB0057149B /* View */,
+				1C71D40F2757E56C0057149B /* Controller */,
+			);
+			path = CurrentFinancial;
+			sourceTree = "<group>";
+		};
+		1C71D40F2757E56C0057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4242757E56C0057149B /* FixFinancial */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4252757E56C0057149B /* Controller */,
+				1C71D4282757E56C0057149B /* Model */,
+				1C71D42A2757E56C0057149B /* View */,
+			);
+			path = FixFinancial;
+			sourceTree = "<group>";
+		};
+		1C71D4252757E56C0057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4262757E56C0057149B /* FixFinancialViewController.swift */,
+				1C71D4272757E56C0057149B /* FixFinancialTakeOutVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4282757E56C0057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4292757E56C0057149B /* FixFinancialModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D42A2757E56C0057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D42B2757E56C0057149B /* FixFinancialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71D42E2757E56C0057149B /* Financial */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4332757E56C0057149B /* Controller */,
+				1C71D4352757E56C0057149B /* Model */,
+				1C71D4392757E56C0057149B /* View */,
+				1C71D43E2757E56C0057149B /* CPages */,
+			);
+			path = Financial;
+			sourceTree = "<group>";
+		};
+		1C71D4332757E56C0057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4342757E56C0057149B /* FinancialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4352757E56C0057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4362757E56C0057149B /* FinancialHomeGroupModel.swift */,
+				1C71D4372757E56C0057149B /* FinancialProductListModel.swift */,
+				1C71D4382757E56C0057149B /* FinancialResultModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D4392757E56C0057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D43A2757E56C0057149B /* FinancialProductHeaderView.swift */,
+				1C71D43B2757E56C0057149B /* FinancialProductCell.swift */,
+				1C71D43C2757E56C0057149B /* FinancialProfitReusableView.swift */,
+				1C71D43D2757E56C0057149B /* FinancialAssetReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71D43E2757E56C0057149B /* CPages */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D43F2757E56C0057149B /* MyFinancial */,
+				1C71D44E2757E56C0057149B /* FinancialDetail */,
+			);
+			path = CPages;
+			sourceTree = "<group>";
+		};
+		1C71D43F2757E56C0057149B /* MyFinancial */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4402757E56C0057149B /* Controller */,
+				1C71D4422757E56C0057149B /* Model */,
+				1C71D4472757E56C0057149B /* View */,
+			);
+			path = MyFinancial;
+			sourceTree = "<group>";
+		};
+		1C71D4402757E56C0057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4412757E56C0057149B /* MyFinancialViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4422757E56C0057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4432757E56C0057149B /* MyFinancianHeaderModel.swift */,
+				1C71D4442757E56C0057149B /* MyFinancialProductListModel.swift */,
+				1C71D4452757E56C0057149B /* MyFinancialResultModel.swift */,
+				1C71D4462757E56C0057149B /* MyFinancialGroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D4472757E56C0057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4482757E56C0057149B /* MyFinancialCurrentCell.swift */,
+				1C71D4492757E56C0057149B /* MyFinancialFixCell.swift */,
+				1C71D44A2757E56C0057149B /* MyFinancialWealthReusableView.swift */,
+				1C71D44B2757E56C0057149B /* MyFinancialAssetReusableView.swift */,
+				1C71D44C2757E56C0057149B /* MyFinancialNoRecordCell.swift */,
+				1C71D44D2757E56C0057149B /* MyFinancialWealthFooterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71D44E2757E56C0057149B /* FinancialDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D44F2757E56C0057149B /* Controller */,
+				1C71D4522757E56C0057149B /* Model */,
+				1C71D4582757E56C0057149B /* View */,
+			);
+			path = FinancialDetail;
+			sourceTree = "<group>";
+		};
+		1C71D44F2757E56C0057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4502757E56C0057149B /* FinancialTransactionDetailVC.swift */,
+				1C71D4512757E56C0057149B /* FinancialDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4522757E56C0057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4532757E56C0057149B /* FinancialDetailResultModel.swift */,
+				1C71D4542757E56C0057149B /* FinancialDetailOperationAction.swift */,
+				1C71D4552757E56C0057149B /* FinancialFixTimeModel.swift */,
+				1C71D4562757E56C0057149B /* FinancialDetailProfitDetailModel.swift */,
+				1C71D4572757E56C0057149B /* FinancialDetailGroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D4582757E56C0057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4592757E56C0057149B /* FinancialDetailHeaderReusableView.swift */,
+				1C71D45A2757E56C0057149B /* FinancialDetailTimeLineReusableView.swift */,
+				1C71D45B2757E56C0057149B /* FinancialTransactionDetailCell.swift */,
+				1C71D45C2757E56C0057149B /* FinancialDetailOperationItemReusableView.swift */,
+				1C71D45D2757E56C0057149B /* FinancialDetailProfitReusableView.swift */,
+				1C71D45E2757E56C0057149B /* FinancialDetailProfitCell.swift */,
+				1C71D45F2757E56C0057149B /* FinancialTransactionDetailReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71D49C2757E6980057149B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4C52757E95E0057149B /* Protocol */,
+				1C71D4A42757E8520057149B /* Extensions */,
+				1C71D49D2757E6980057149B /* Gradient */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1C71D49D2757E6980057149B /* Gradient */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D49E2757E6980057149B /* GradientProvide.swift */,
+				1C71D49F2757E6980057149B /* GradientButton.swift */,
+				1C71D4A02757E6980057149B /* GradientView.swift */,
+			);
+			path = Gradient;
+			sourceTree = "<group>";
+		};
+		1C71D4A42757E8520057149B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4A52757E86C0057149B /* String+Calculation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1C71D4A72757E8DB0057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4AC2757E8DB0057149B /* CurrentFinancialView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C71D4C02757E9070057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4C12757E9070057149B /* FinancialPayMentModel.swift */,
+				1C71D4C22757E9070057149B /* CurrentFinancialModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D4C52757E95E0057149B /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4C62757E9790057149B /* RoundCornerProvider.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 		342F8FD0357B033997698385F1458DE9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +428,9 @@
 		79CC905B649F21C6A5053ECCB20404E8 /* GroupModelTest */ = {
 			isa = PBXGroup;
 			children = (
-				BE50538E25FF483D0097BFCD /* BaseConfig */,
-				BE50538D25FF481F0097BFCD /* Extensions */,
+				1C71D49C2757E6980057149B /* Components */,
+				1C71D42E2757E56C0057149B /* Financial */,
+				1C71D40D2757E56C0057149B /* FinancialProduct */,
 				342F8FD0357B033997698385F1458DE9 /* Home */,
 				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
 				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
@@ -134,27 +464,6 @@
 				BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		BE50538D25FF481F0097BFCD /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BE50539325FF48750097BFCD /* UIColor+Extension.swift */,
-				BE50539425FF48750097BFCD /* UIFont+Extension.swift */,
-				BE50539C25FF48DC0097BFCD /* UIButton+Extension.swift */,
-				BE50539F25FF49050097BFCD /* CGRect+Extension.swift */,
-				BE5053A225FF492F0097BFCD /* ReusableView+Reusable.swift */,
-				BE5053A525FF49660097BFCD /* String+Calculation.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		BE50538E25FF483D0097BFCD /* BaseConfig */ = {
-			isa = PBXGroup;
-			children = (
-				BE50539025FF48520097BFCD /* RSBaseConfig.swift */,
-			);
-			path = BaseConfig;
 			sourceTree = "<group>";
 		};
 		BE5F383725A5BD820043D7F2 /* Protocol */ = {
@@ -375,22 +684,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */,
-				BE5053A025FF49050097BFCD /* CGRect+Extension.swift in Sources */,
+				1C71D4972757E56D0057149B /* FinancialTransactionDetailCell.swift in Sources */,
+				1C71D4B82757E8DB0057149B /* CurrentFinancialView.swift in Sources */,
+				1C71D4952757E56D0057149B /* FinancialDetailHeaderReusableView.swift in Sources */,
 				BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */,
-				BE5053A325FF492F0097BFCD /* ReusableView+Reusable.swift in Sources */,
 				52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */,
+				1C71D48E2757E56D0057149B /* FinancialTransactionDetailVC.swift in Sources */,
+				1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */,
 				BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */,
+				1C71D4892757E56D0057149B /* MyFinancialFixCell.swift in Sources */,
 				BE5F390A25A6C3470043D7F2 /* SectionColorFlowLayout.swift in Sources */,
+				1C71D47E2757E56D0057149B /* FinancialResultModel.swift in Sources */,
+				1C71D4812757E56D0057149B /* FinancialProfitReusableView.swift in Sources */,
+				1C71D4902757E56D0057149B /* FinancialDetailResultModel.swift in Sources */,
+				1C71D4C42757E9070057149B /* CurrentFinancialModel.swift in Sources */,
+				1C71D47D2757E56D0057149B /* FinancialProductListModel.swift in Sources */,
+				1C71D4802757E56D0057149B /* FinancialProductCell.swift in Sources */,
+				1C71D49B2757E56D0057149B /* FinancialTransactionDetailReusableView.swift in Sources */,
+				1C71D48C2757E56D0057149B /* MyFinancialNoRecordCell.swift in Sources */,
 				6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */,
 				BE5F386F25A5C2050043D7F2 /* RecommendSearchCell.swift in Sources */,
-				BE50539125FF48520097BFCD /* RSBaseConfig.swift in Sources */,
-				BE50539D25FF48DC0097BFCD /* UIButton+Extension.swift in Sources */,
+				1C71D4C72757E9790057149B /* RoundCornerProvider.swift in Sources */,
+				1C71D48B2757E56D0057149B /* MyFinancialAssetReusableView.swift in Sources */,
+				1C71D4962757E56D0057149B /* FinancialDetailTimeLineReusableView.swift in Sources */,
+				1C71D47F2757E56D0057149B /* FinancialProductHeaderView.swift in Sources */,
+				1C71D4822757E56D0057149B /* FinancialAssetReusableView.swift in Sources */,
+				1C71D48F2757E56D0057149B /* FinancialDetailViewController.swift in Sources */,
+				1C71D4A12757E6980057149B /* GradientProvide.swift in Sources */,
+				1C71D4982757E56D0057149B /* FinancialDetailOperationItemReusableView.swift in Sources */,
+				1C71D4A22757E6980057149B /* GradientButton.swift in Sources */,
+				1C71D4832757E56D0057149B /* MyFinancialViewController.swift in Sources */,
+				1C71D4742757E56D0057149B /* FixFinancialModel.swift in Sources */,
+				1C71D4992757E56D0057149B /* FinancialDetailProfitReusableView.swift in Sources */,
+				1C71D48D2757E56D0057149B /* MyFinancialWealthFooterView.swift in Sources */,
 				8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */,
-				BE5053A625FF49660097BFCD /* String+Calculation.swift in Sources */,
+				1C71D49A2757E56D0057149B /* FinancialDetailProfitCell.swift in Sources */,
+				1C71D4732757E56D0057149B /* FixFinancialTakeOutVC.swift in Sources */,
+				1C71D48A2757E56D0057149B /* MyFinancialWealthReusableView.swift in Sources */,
+				1C71D4932757E56D0057149B /* FinancialDetailProfitDetailModel.swift in Sources */,
+				1C71D4752757E56D0057149B /* FixFinancialView.swift in Sources */,
+				1C71D4842757E56D0057149B /* MyFinancianHeaderModel.swift in Sources */,
 				BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */,
-				BE50539525FF48750097BFCD /* UIColor+Extension.swift in Sources */,
+				1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */,
+				1C71D4A32757E6980057149B /* GradientView.swift in Sources */,
+				1C71D4C32757E9070057149B /* FinancialPayMentModel.swift in Sources */,
+				1C71D4912757E56D0057149B /* FinancialDetailOperationAction.swift in Sources */,
+				1C71D47B2757E56D0057149B /* FinancialViewController.swift in Sources */,
+				1C71D4882757E56D0057149B /* MyFinancialCurrentCell.swift in Sources */,
+				1C71D4872757E56D0057149B /* MyFinancialGroupModel.swift in Sources */,
+				1C71D47C2757E56D0057149B /* FinancialHomeGroupModel.swift in Sources */,
+				1C71D4942757E56D0057149B /* FinancialDetailGroupModel.swift in Sources */,
+				1C71D4A62757E86C0057149B /* String+Calculation.swift in Sources */,
 				FDA095598ECAF2552707DBFF2A2872F1 /* HomeReuseHeaderView.swift in Sources */,
-				BE50539625FF48750097BFCD /* UIFont+Extension.swift in Sources */,
+				1C71D4852757E56D0057149B /* MyFinancialProductListModel.swift in Sources */,
+				1C71D4922757E56D0057149B /* FinancialFixTimeModel.swift in Sources */,
+				1C71D4862757E56D0057149B /* MyFinancialResultModel.swift in Sources */,
 				59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,7 +892,7 @@
 				);
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
-				PRODUCT_NAME = "GroupModelTest";
+				PRODUCT_NAME = GroupModelTest;
 				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -581,7 +929,7 @@
 				);
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
-				PRODUCT_NAME = "GroupModelTest";
+				PRODUCT_NAME = GroupModelTest;
 				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
