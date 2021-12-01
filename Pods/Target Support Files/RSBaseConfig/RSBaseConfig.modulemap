@@ -1,0 +1,6 @@
+framework module RSBaseConfig {
+  umbrella header "RSBaseConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

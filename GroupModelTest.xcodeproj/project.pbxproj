@@ -32,24 +32,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		29A6808D392D658247E6FF8F9A1B8303 /* Pods_MALL_iOS_AppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_AppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		44ED72129122D3B71DB21971B1DB6616 /* Pods_MALL_iOS_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
-		54FD1D96C1D404015CD95265E026AFF2 /* Pods-MALL_iOS_Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Dev.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Dev/Pods-MALL_iOS_Dev.release.xcconfig"; sourceTree = "<group>"; };
-		58A7BB11649F693CD99209111E2BE80B /* Pods_MALL_iOS_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		62A52425D199BC36D482ECBE4AB536B3 /* Pods-MALL_iOS_TF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_TF.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_TF/Pods-MALL_iOS_TF.release.xcconfig"; sourceTree = "<group>"; };
-		7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "恒利商城.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GroupModelTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupModelTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		8F20394B28CA93B37784965F18FFB0D5 /* Pods-MALL_iOS_Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Test.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Test/Pods-MALL_iOS_Test.release.xcconfig"; sourceTree = "<group>"; };
 		96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchCell.swift; sourceTree = "<group>"; };
-		9D6AD6D9E01BE41F91E1263B80748873 /* Pods-MALL_iOS_TF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_TF.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_TF/Pods-MALL_iOS_TF.debug.xcconfig"; sourceTree = "<group>"; };
-		9DEAF220D75C4899CD7B6AB58A09EDF9 /* Pods-MALL_iOS_AppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_AppStore.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_AppStore/Pods-MALL_iOS_AppStore.release.xcconfig"; sourceTree = "<group>"; };
 		9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-GroupModelTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupModelTest.release.xcconfig"; path = "Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest.release.xcconfig"; sourceTree = "<group>"; };
-		A6566011FA6210F4DE5FD485675167C7 /* Pods-MALL_iOS_Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Dev.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Dev/Pods-MALL_iOS_Dev.debug.xcconfig"; sourceTree = "<group>"; };
-		ACD4D501C687F197E1684CA01B8EFF21 /* Pods-MALL_iOS_AppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_AppStore.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_AppStore/Pods-MALL_iOS_AppStore.debug.xcconfig"; sourceTree = "<group>"; };
-		B51652FC48551FFE7534FFF71AF05EE2 /* Pods_MALL_iOS_TF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_TF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCDBBA51698D639E9A827831A45E04FD /* Pods-MALL_iOS_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Test.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Test/Pods-MALL_iOS_Test.debug.xcconfig"; sourceTree = "<group>"; };
 		BE50539025FF48520097BFCD /* RSBaseConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSBaseConfig.swift; sourceTree = "<group>"; };
 		BE50539325FF48750097BFCD /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		BE50539425FF48750097BFCD /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
@@ -65,11 +53,8 @@
 		BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionColorFlowLayout.swift; sourceTree = "<group>"; };
 		BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen_new.storyboard; sourceTree = "<group>"; };
 		CD2912114379659807BE6107D55F020B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D53028082EB09EEA2FF159290E721147 /* Pods-MALL_iOS_Pre.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Pre.release.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Pre/Pods-MALL_iOS_Pre.release.xcconfig"; sourceTree = "<group>"; };
 		DAF7F4E031533106260D3D2DD0D55715 /* Pods-GroupModelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupModelTest.debug.xcconfig"; path = "Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReuseHeaderView.swift; sourceTree = "<group>"; };
-		E576BA4B53505C9B734EEF91AE46975F /* Pods-MALL_iOS_Pre.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MALL_iOS_Pre.debug.xcconfig"; path = "Target Support Files/Pods-MALL_iOS_Pre/Pods-MALL_iOS_Pre.debug.xcconfig"; sourceTree = "<group>"; };
-		EC09EE6FB021506298A6420798E035FA /* Pods_MALL_iOS_Pre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MALL_iOS_Pre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupModelTest-Info.plist"; sourceTree = "<group>"; };
 		FF35EAE316660387BAFFB773 /* Pods_GroupModelTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroupModelTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,11 +114,6 @@
 		95CF7EB8857ACBAD57C0CF8B9FD10568 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				29A6808D392D658247E6FF8F9A1B8303 /* Pods_MALL_iOS_AppStore.framework */,
-				44ED72129122D3B71DB21971B1DB6616 /* Pods_MALL_iOS_Dev.framework */,
-				EC09EE6FB021506298A6420798E035FA /* Pods_MALL_iOS_Pre.framework */,
-				B51652FC48551FFE7534FFF71AF05EE2 /* Pods_MALL_iOS_TF.framework */,
-				58A7BB11649F693CD99209111E2BE80B /* Pods_MALL_iOS_Test.framework */,
 				FF35EAE316660387BAFFB773 /* Pods_GroupModelTest.framework */,
 			);
 			name = Frameworks;
@@ -142,7 +122,7 @@
 		9A8A6F0FC79A7C6B886319EEA1158056 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */,
+				7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,16 +196,6 @@
 			children = (
 				DAF7F4E031533106260D3D2DD0D55715 /* Pods-GroupModelTest.debug.xcconfig */,
 				9F6A3E39FB516D6EDFABB4B66BAAAAE4 /* Pods-GroupModelTest.release.xcconfig */,
-				ACD4D501C687F197E1684CA01B8EFF21 /* Pods-MALL_iOS_AppStore.debug.xcconfig */,
-				9DEAF220D75C4899CD7B6AB58A09EDF9 /* Pods-MALL_iOS_AppStore.release.xcconfig */,
-				A6566011FA6210F4DE5FD485675167C7 /* Pods-MALL_iOS_Dev.debug.xcconfig */,
-				54FD1D96C1D404015CD95265E026AFF2 /* Pods-MALL_iOS_Dev.release.xcconfig */,
-				E576BA4B53505C9B734EEF91AE46975F /* Pods-MALL_iOS_Pre.debug.xcconfig */,
-				D53028082EB09EEA2FF159290E721147 /* Pods-MALL_iOS_Pre.release.xcconfig */,
-				9D6AD6D9E01BE41F91E1263B80748873 /* Pods-MALL_iOS_TF.debug.xcconfig */,
-				62A52425D199BC36D482ECBE4AB536B3 /* Pods-MALL_iOS_TF.release.xcconfig */,
-				BCDBBA51698D639E9A827831A45E04FD /* Pods-MALL_iOS_Test.debug.xcconfig */,
-				8F20394B28CA93B37784965F18FFB0D5 /* Pods-MALL_iOS_Test.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -244,6 +214,7 @@
 				21A6796C252A592C1CAFB337DF1765D1 /* [CP] Embed Pods Frameworks */,
 				99032FC1882C1C52F2E8FB5D4212DA1D /* AutoUploadDSYM */,
 				407942527A27592D1707E3B508D28C0B /* ShellScript */,
+				24718C477391FC1B714D9D24 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +222,7 @@
 			);
 			name = GroupModelTest;
 			productName = PhotoRetrieval;
-			productReference = 7EAE4FD6CD755125C05F1E2535413DFC /* 恒利商城.app */;
+			productReference = 7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -320,6 +291,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24718C477391FC1B714D9D24 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		407942527A27592D1707E3B508D28C0B /* ShellScript */ = {
@@ -556,7 +544,7 @@
 				);
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
-				PRODUCT_NAME = "恒利商城";
+				PRODUCT_NAME = "GroupModelTest";
 				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -593,7 +581,7 @@
 				);
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
-				PRODUCT_NAME = "恒利商城";
+				PRODUCT_NAME = "GroupModelTest";
 				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";

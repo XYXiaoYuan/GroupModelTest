@@ -1,0 +1,6 @@
+framework module WeakProxyArray {
+  umbrella header "WeakProxyArray-umbrella.h"
+
+  export *
+  module * { export * }
+}

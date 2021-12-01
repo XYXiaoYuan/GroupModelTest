@@ -1,0 +1,6 @@
+framework module GoodsRankMenuView {
+  umbrella header "GoodsRankMenuView-umbrella.h"
+
+  export *
+  module * { export * }
+}

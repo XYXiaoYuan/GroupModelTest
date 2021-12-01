@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0083043593497717D3EBF34BA58A1E49"
-               BuildableName = "&#x6052;&#x5229;&#x5546;&#x57ce;.app"
+               BuildableName = "GroupModelTest.app"
                BlueprintName = "GroupModelTest"
                ReferencedContainer = "container:GroupModelTest.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0083043593497717D3EBF34BA58A1E49"
-            BuildableName = "&#x6052;&#x5229;&#x5546;&#x57ce;.app"
+            BuildableName = "GroupModelTest.app"
             BlueprintName = "GroupModelTest"
             ReferencedContainer = "container:GroupModelTest.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0083043593497717D3EBF34BA58A1E49"
-            BuildableName = "&#x6052;&#x5229;&#x5546;&#x57ce;.app"
+            BuildableName = "GroupModelTest.app"
             BlueprintName = "GroupModelTest"
             ReferencedContainer = "container:GroupModelTest.xcodeproj">
          </BuildableReference>

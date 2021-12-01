@@ -1,0 +1,6 @@
+framework module AlertViewComponent {
+  umbrella header "AlertViewComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

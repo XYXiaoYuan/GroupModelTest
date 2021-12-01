@@ -1,0 +1,6 @@
+framework module RSUIProvider {
+  umbrella header "RSUIProvider-umbrella.h"
+
+  export *
+  module * { export * }
+}
