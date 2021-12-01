@@ -35,10 +35,3 @@ extension AppDelegate {
     }
 }
 
-
-public extension String {
-    /// [usage]: "xxx".localized
-    var localized: String {
-        return self
-    }
-}

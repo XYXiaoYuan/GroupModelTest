@@ -48,3 +48,10 @@ extension String {
         return size
     }
 }
+
+public extension String {
+    /// [usage]: "xxx".localized
+    var localized: String {
+        return self
+    }
+}
