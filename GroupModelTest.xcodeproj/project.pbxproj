@@ -53,6 +53,19 @@
 		1C71D4C32757E9070057149B /* FinancialPayMentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C12757E9070057149B /* FinancialPayMentModel.swift */; };
 		1C71D4C42757E9070057149B /* CurrentFinancialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C22757E9070057149B /* CurrentFinancialModel.swift */; };
 		1C71D4C72757E9790057149B /* RoundCornerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4C62757E9790057149B /* RoundCornerProvider.swift */; };
+		1C71D4CD2757ECD10057149B /* LiveCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4CC2757ECD10057149B /* LiveCreateViewController.swift */; };
+		1C71D4CF2757ECDC0057149B /* ApplyLiveGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4CE2757ECDC0057149B /* ApplyLiveGroupModel.swift */; };
+		1C71D4DA2757ECFA0057149B /* LiveCreateHotCoverReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D02757ECFA0057149B /* LiveCreateHotCoverReusableView.swift */; };
+		1C71D4DB2757ECFA0057149B /* LiveCreateCoverReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D12757ECFA0057149B /* LiveCreateCoverReusableView.swift */; };
+		1C71D4DC2757ECFA0057149B /* LiveCreateCategoryReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D22757ECFA0057149B /* LiveCreateCategoryReusableView.swift */; };
+		1C71D4DD2757ECFA0057149B /* LiveCreateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D32757ECFA0057149B /* LiveCreateCardView.swift */; };
+		1C71D4DE2757ECFA0057149B /* LiveCreateStarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D42757ECFA0057149B /* LiveCreateStarView.swift */; };
+		1C71D4DF2757ECFA0057149B /* LiveCreateSubTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D52757ECFA0057149B /* LiveCreateSubTitleReusableView.swift */; };
+		1C71D4E02757ECFA0057149B /* LiveCreateCommerceReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D62757ECFA0057149B /* LiveCreateCommerceReusableView.swift */; };
+		1C71D4E12757ECFA0057149B /* LiveCreateTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D72757ECFA0057149B /* LiveCreateTitleReusableView.swift */; };
+		1C71D4E22757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */; };
+		1C71D4E32757ECFA0057149B /* LiveCreateTypeReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */; };
+		1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C71D4E42757EF050057149B /* IconAssets.xcassets */; };
 		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
 		59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */; };
 		6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */; };
@@ -117,6 +130,19 @@
 		1C71D4C12757E9070057149B /* FinancialPayMentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialPayMentModel.swift; sourceTree = "<group>"; };
 		1C71D4C22757E9070057149B /* CurrentFinancialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialModel.swift; sourceTree = "<group>"; };
 		1C71D4C62757E9790057149B /* RoundCornerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundCornerProvider.swift; sourceTree = "<group>"; };
+		1C71D4CC2757ECD10057149B /* LiveCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateViewController.swift; sourceTree = "<group>"; };
+		1C71D4CE2757ECDC0057149B /* ApplyLiveGroupModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplyLiveGroupModel.swift; sourceTree = "<group>"; };
+		1C71D4D02757ECFA0057149B /* LiveCreateHotCoverReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateHotCoverReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D12757ECFA0057149B /* LiveCreateCoverReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateCoverReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D22757ECFA0057149B /* LiveCreateCategoryReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateCategoryReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D32757ECFA0057149B /* LiveCreateCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateCardView.swift; sourceTree = "<group>"; };
+		1C71D4D42757ECFA0057149B /* LiveCreateStarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateStarView.swift; sourceTree = "<group>"; };
+		1C71D4D52757ECFA0057149B /* LiveCreateSubTitleReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateSubTitleReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D62757ECFA0057149B /* LiveCreateCommerceReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateCommerceReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D72757ECFA0057149B /* LiveCreateTitleReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateTitleReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateBottomButtonReusableView.swift; sourceTree = "<group>"; };
+		1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateTypeReusableView.swift; sourceTree = "<group>"; };
+		1C71D4E42757EF050057149B /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
 		7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -401,6 +427,49 @@
 			path = Protocol;
 			sourceTree = "<group>";
 		};
+		1C71D4C82757ECA60057149B /* Apply */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4CB2757ECC50057149B /* View */,
+				1C71D4CA2757ECBE0057149B /* Model */,
+				1C71D4C92757ECB40057149B /* Controller */,
+			);
+			path = Apply;
+			sourceTree = "<group>";
+		};
+		1C71D4C92757ECB40057149B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4CC2757ECD10057149B /* LiveCreateViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C71D4CA2757ECBE0057149B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4CE2757ECDC0057149B /* ApplyLiveGroupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1C71D4CB2757ECC50057149B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */,
+				1C71D4D32757ECFA0057149B /* LiveCreateCardView.swift */,
+				1C71D4D22757ECFA0057149B /* LiveCreateCategoryReusableView.swift */,
+				1C71D4D62757ECFA0057149B /* LiveCreateCommerceReusableView.swift */,
+				1C71D4D12757ECFA0057149B /* LiveCreateCoverReusableView.swift */,
+				1C71D4D02757ECFA0057149B /* LiveCreateHotCoverReusableView.swift */,
+				1C71D4D42757ECFA0057149B /* LiveCreateStarView.swift */,
+				1C71D4D52757ECFA0057149B /* LiveCreateSubTitleReusableView.swift */,
+				1C71D4D72757ECFA0057149B /* LiveCreateTitleReusableView.swift */,
+				1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		342F8FD0357B033997698385F1458DE9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -428,12 +497,14 @@
 		79CC905B649F21C6A5053ECCB20404E8 /* GroupModelTest */ = {
 			isa = PBXGroup;
 			children = (
+				1C71D4C82757ECA60057149B /* Apply */,
 				1C71D49C2757E6980057149B /* Components */,
 				1C71D42E2757E56C0057149B /* Financial */,
 				1C71D40D2757E56C0057149B /* FinancialProduct */,
 				342F8FD0357B033997698385F1458DE9 /* Home */,
 				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
 				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
+				1C71D4E42757EF050057149B /* IconAssets.xcassets */,
 				83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */,
 				BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */,
 				FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */,
@@ -579,6 +650,7 @@
 				EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */,
 				900AE7B903C6DFB21347375817A0383F /* GroupModelTest-Info.plist in Resources */,
 				BE8F60DF2567D329005DE03F /* SplashScreen_new.storyboard in Resources */,
+				1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,16 +759,21 @@
 				1C71D4972757E56D0057149B /* FinancialTransactionDetailCell.swift in Sources */,
 				1C71D4B82757E8DB0057149B /* CurrentFinancialView.swift in Sources */,
 				1C71D4952757E56D0057149B /* FinancialDetailHeaderReusableView.swift in Sources */,
+				1C71D4DB2757ECFA0057149B /* LiveCreateCoverReusableView.swift in Sources */,
 				BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */,
 				52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */,
 				1C71D48E2757E56D0057149B /* FinancialTransactionDetailVC.swift in Sources */,
 				1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */,
 				BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */,
+				1C71D4E22757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift in Sources */,
+				1C71D4E02757ECFA0057149B /* LiveCreateCommerceReusableView.swift in Sources */,
 				1C71D4892757E56D0057149B /* MyFinancialFixCell.swift in Sources */,
 				BE5F390A25A6C3470043D7F2 /* SectionColorFlowLayout.swift in Sources */,
+				1C71D4DE2757ECFA0057149B /* LiveCreateStarView.swift in Sources */,
 				1C71D47E2757E56D0057149B /* FinancialResultModel.swift in Sources */,
 				1C71D4812757E56D0057149B /* FinancialProfitReusableView.swift in Sources */,
 				1C71D4902757E56D0057149B /* FinancialDetailResultModel.swift in Sources */,
+				1C71D4CD2757ECD10057149B /* LiveCreateViewController.swift in Sources */,
 				1C71D4C42757E9070057149B /* CurrentFinancialModel.swift in Sources */,
 				1C71D47D2757E56D0057149B /* FinancialProductListModel.swift in Sources */,
 				1C71D4802757E56D0057149B /* FinancialProductCell.swift in Sources */,
@@ -714,13 +791,17 @@
 				1C71D4982757E56D0057149B /* FinancialDetailOperationItemReusableView.swift in Sources */,
 				1C71D4A22757E6980057149B /* GradientButton.swift in Sources */,
 				1C71D4832757E56D0057149B /* MyFinancialViewController.swift in Sources */,
+				1C71D4CF2757ECDC0057149B /* ApplyLiveGroupModel.swift in Sources */,
 				1C71D4742757E56D0057149B /* FixFinancialModel.swift in Sources */,
 				1C71D4992757E56D0057149B /* FinancialDetailProfitReusableView.swift in Sources */,
 				1C71D48D2757E56D0057149B /* MyFinancialWealthFooterView.swift in Sources */,
+				1C71D4DF2757ECFA0057149B /* LiveCreateSubTitleReusableView.swift in Sources */,
 				8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */,
 				1C71D49A2757E56D0057149B /* FinancialDetailProfitCell.swift in Sources */,
+				1C71D4E32757ECFA0057149B /* LiveCreateTypeReusableView.swift in Sources */,
 				1C71D4732757E56D0057149B /* FixFinancialTakeOutVC.swift in Sources */,
 				1C71D48A2757E56D0057149B /* MyFinancialWealthReusableView.swift in Sources */,
+				1C71D4E12757ECFA0057149B /* LiveCreateTitleReusableView.swift in Sources */,
 				1C71D4932757E56D0057149B /* FinancialDetailProfitDetailModel.swift in Sources */,
 				1C71D4752757E56D0057149B /* FixFinancialView.swift in Sources */,
 				1C71D4842757E56D0057149B /* MyFinancianHeaderModel.swift in Sources */,
@@ -728,12 +809,15 @@
 				1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */,
 				1C71D4A32757E6980057149B /* GradientView.swift in Sources */,
 				1C71D4C32757E9070057149B /* FinancialPayMentModel.swift in Sources */,
+				1C71D4DA2757ECFA0057149B /* LiveCreateHotCoverReusableView.swift in Sources */,
+				1C71D4DC2757ECFA0057149B /* LiveCreateCategoryReusableView.swift in Sources */,
 				1C71D4912757E56D0057149B /* FinancialDetailOperationAction.swift in Sources */,
 				1C71D47B2757E56D0057149B /* FinancialViewController.swift in Sources */,
 				1C71D4882757E56D0057149B /* MyFinancialCurrentCell.swift in Sources */,
 				1C71D4872757E56D0057149B /* MyFinancialGroupModel.swift in Sources */,
 				1C71D47C2757E56D0057149B /* FinancialHomeGroupModel.swift in Sources */,
 				1C71D4942757E56D0057149B /* FinancialDetailGroupModel.swift in Sources */,
+				1C71D4DD2757ECFA0057149B /* LiveCreateCardView.swift in Sources */,
 				1C71D4A62757E86C0057149B /* String+Calculation.swift in Sources */,
 				FDA095598ECAF2552707DBFF2A2872F1 /* HomeReuseHeaderView.swift in Sources */,
 				1C71D4852757E56D0057149B /* MyFinancialProductListModel.swift in Sources */,

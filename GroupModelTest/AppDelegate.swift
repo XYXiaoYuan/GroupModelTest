@@ -18,7 +18,6 @@ import UIKit
 
         return true
     }
-    
 }
 
 // MARK: - 设置窗口的根控制器
@@ -30,6 +29,7 @@ extension AppDelegate {
         window?.makeKeyAndVisible()
         
         let nav = UINavigationController(rootViewController: FinanciaViewController())
+//        let nav = UINavigationController(rootViewController: LiveCreateViewController())
 //        let nav = UINavigationController(rootViewController: HomeViewController())
         window?.rootViewController = nav
     }
