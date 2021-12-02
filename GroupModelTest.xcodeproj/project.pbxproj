@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C495B38275913B200896901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C495B37275913B200896901 /* ViewController.swift */; };
 		1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */; };
 		1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4262757E56C0057149B /* FixFinancialViewController.swift */; };
 		1C71D4732757E56D0057149B /* FixFinancialTakeOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4272757E56C0057149B /* FixFinancialTakeOutVC.swift */; };
@@ -66,25 +67,27 @@
 		1C71D4E22757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */; };
 		1C71D4E32757ECFA0057149B /* LiveCreateTypeReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */; };
 		1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C71D4E42757EF050057149B /* IconAssets.xcassets */; };
+		1C71D4E9275912DB0057149B /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4E7275912DB0057149B /* BaseNavigationController.swift */; };
+		1C71D4EA275912DB0057149B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4E8275912DB0057149B /* NavigationController.swift */; };
 		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
 		59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */; };
 		6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */; };
 		6DE57A662758F08200F0BB2F /* InjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE57A652758F08200F0BB2F /* InjectionIIIHelper.m */; };
 		8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */; };
-		900AE7B903C6DFB21347375817A0383F /* GroupModelTest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */; };
 		BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */; };
 		BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */; };
 		BE5F386F25A5C2050043D7F2 /* RecommendSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F386A25A5C2050043D7F2 /* RecommendSearchCell.swift */; };
 		BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F387725A5C2310043D7F2 /* TodayHotSearchCell.swift */; };
 		BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F388425A5D0CE0043D7F2 /* HomeReuseFooterView.swift */; };
 		BE5F390A25A6C3470043D7F2 /* SectionColorFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */; };
-		BE8F60DF2567D329005DE03F /* SplashScreen_new.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */; };
+		BE8F60DF2567D329005DE03F /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE8F60DA2567D329005DE03F /* SplashScreen.storyboard */; };
 		EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2912114379659807BE6107D55F020B /* Assets.xcassets */; };
 		F3F7101DB07F95112394E4F2 /* Pods_GroupModelTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF35EAE316660387BAFFB773 /* Pods_GroupModelTest.framework */; };
 		FDA095598ECAF2552707DBFF2A2872F1 /* HomeReuseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C495B37275913B200896901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialViewController.swift; sourceTree = "<group>"; };
 		1C71D4262757E56C0057149B /* FixFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialViewController.swift; sourceTree = "<group>"; };
 		1C71D4272757E56C0057149B /* FixFinancialTakeOutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialTakeOutVC.swift; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 		1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateBottomButtonReusableView.swift; sourceTree = "<group>"; };
 		1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateTypeReusableView.swift; sourceTree = "<group>"; };
 		1C71D4E42757EF050057149B /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
+		1C71D4E7275912DB0057149B /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		1C71D4E8275912DB0057149B /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
 		6DE57A642758F08200F0BB2F /* InjectionIIIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectionIIIHelper.h; sourceTree = "<group>"; };
@@ -158,7 +163,7 @@
 		BE5F387725A5C2310043D7F2 /* TodayHotSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayHotSearchCell.swift; sourceTree = "<group>"; };
 		BE5F388425A5D0CE0043D7F2 /* HomeReuseFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReuseFooterView.swift; sourceTree = "<group>"; };
 		BE5F390525A6C3470043D7F2 /* SectionColorFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionColorFlowLayout.swift; sourceTree = "<group>"; };
-		BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen_new.storyboard; sourceTree = "<group>"; };
+		BE8F60DA2567D329005DE03F /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
 		CD2912114379659807BE6107D55F020B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAF7F4E031533106260D3D2DD0D55715 /* Pods-GroupModelTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroupModelTest.debug.xcconfig"; path = "Target Support Files/Pods-GroupModelTest/Pods-GroupModelTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DBEBE4D47DAF2B8FA22561F631013899 /* HomeReuseHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeReuseHeaderView.swift; sourceTree = "<group>"; };
@@ -380,7 +385,10 @@
 		1C71D49C2757E6980057149B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1C71D4E6275912C10057149B /* Main */,
 				1C71D4C52757E95E0057149B /* Protocol */,
+				BE5F38BF25A6A6B70043D7F2 /* FlowLayout */,
+				BE5F383725A5BD820043D7F2 /* Protocol */,
 				1C71D4A42757E8520057149B /* Extensions */,
 				1C71D49D2757E6980057149B /* Gradient */,
 			);
@@ -473,11 +481,18 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		1C71D4E6275912C10057149B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1C71D4E7275912DB0057149B /* BaseNavigationController.swift */,
+				1C71D4E8275912DB0057149B /* NavigationController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		342F8FD0357B033997698385F1458DE9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				BE5F38BF25A6A6B70043D7F2 /* FlowLayout */,
-				BE5F383725A5BD820043D7F2 /* Protocol */,
 				E880518E6052580C59991C904B1FEB49 /* Controller */,
 				9C4407854EB425F766529974B280EDDD /* Model */,
 				5EA38DBA7835056BEB9A19549D08F8FC /* View */,
@@ -500,18 +515,19 @@
 		79CC905B649F21C6A5053ECCB20404E8 /* GroupModelTest */ = {
 			isa = PBXGroup;
 			children = (
-				1C71D4C82757ECA60057149B /* Apply */,
 				1C71D49C2757E6980057149B /* Components */,
+				1C71D4C82757ECA60057149B /* Apply */,
 				1C71D42E2757E56C0057149B /* Financial */,
 				1C71D40D2757E56C0057149B /* FinancialProduct */,
 				342F8FD0357B033997698385F1458DE9 /* Home */,
 				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
 				6DE57A642758F08200F0BB2F /* InjectionIIIHelper.h */,
+				1C495B37275913B200896901 /* ViewController.swift */,
 				6DE57A652758F08200F0BB2F /* InjectionIIIHelper.m */,
 				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
 				1C71D4E42757EF050057149B /* IconAssets.xcassets */,
 				83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */,
-				BE8F60DA2567D329005DE03F /* SplashScreen_new.storyboard */,
+				BE8F60DA2567D329005DE03F /* SplashScreen.storyboard */,
 				FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */,
 			);
 			path = GroupModelTest;
@@ -547,7 +563,8 @@
 			children = (
 				BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */,
 			);
-			path = Protocol;
+			name = Protocol;
+			path = ../Home/Protocol;
 			sourceTree = "<group>";
 		};
 		BE5F38BF25A6A6B70043D7F2 /* FlowLayout */ = {
@@ -617,7 +634,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1210;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = cfans;
 				TargetAttributes = {
 					0083043593497717D3EBF34BA58A1E49 = {
@@ -653,8 +670,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */,
-				900AE7B903C6DFB21347375817A0383F /* GroupModelTest-Info.plist in Resources */,
-				BE8F60DF2567D329005DE03F /* SplashScreen_new.storyboard in Resources */,
+				BE8F60DF2567D329005DE03F /* SplashScreen.storyboard in Resources */,
 				1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -768,6 +784,7 @@
 				BE5F387C25A5C2310043D7F2 /* TodayHotSearchCell.swift in Sources */,
 				52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */,
 				1C71D48E2757E56D0057149B /* FinancialTransactionDetailVC.swift in Sources */,
+				1C495B38275913B200896901 /* ViewController.swift in Sources */,
 				1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */,
 				BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */,
 				1C71D4E22757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift in Sources */,
@@ -778,6 +795,7 @@
 				1C71D47E2757E56D0057149B /* FinancialResultModel.swift in Sources */,
 				1C71D4812757E56D0057149B /* FinancialProfitReusableView.swift in Sources */,
 				1C71D4902757E56D0057149B /* FinancialDetailResultModel.swift in Sources */,
+				1C71D4E9275912DB0057149B /* BaseNavigationController.swift in Sources */,
 				1C71D4CD2757ECD10057149B /* LiveCreateViewController.swift in Sources */,
 				1C71D4C42757E9070057149B /* CurrentFinancialModel.swift in Sources */,
 				1C71D47D2757E56D0057149B /* FinancialProductListModel.swift in Sources */,
@@ -808,6 +826,7 @@
 				1C71D48A2757E56D0057149B /* MyFinancialWealthReusableView.swift in Sources */,
 				1C71D4E12757ECFA0057149B /* LiveCreateTitleReusableView.swift in Sources */,
 				1C71D4932757E56D0057149B /* FinancialDetailProfitDetailModel.swift in Sources */,
+				1C71D4EA275912DB0057149B /* NavigationController.swift in Sources */,
 				1C71D4752757E56D0057149B /* FixFinancialView.swift in Sources */,
 				1C71D4842757E56D0057149B /* MyFinancianHeaderModel.swift in Sources */,
 				BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */,
@@ -863,6 +882,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -882,7 +902,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -919,6 +939,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -944,7 +965,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -961,8 +982,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = 9L3VCJC7LF;
@@ -975,7 +996,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
 				);
 				INFOPLIST_FILE = "GroupModelTest/GroupModelTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -983,7 +1004,7 @@
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
 				PRODUCT_NAME = GroupModelTest;
-				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -998,8 +1019,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = "$(inherited)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = 9L3VCJC7LF;
@@ -1012,7 +1033,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
 				);
 				INFOPLIST_FILE = "GroupModelTest/GroupModelTest-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1020,7 +1041,7 @@
 				MARKETING_VERSION = 1.0.30;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
 				PRODUCT_NAME = GroupModelTest;
-				PROVISIONING_PROFILE_SPECIFIER = rebate_dev_pp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
