@@ -6,7 +6,7 @@
 #define MALL_iOS_Bridging_Header_h
 
 // 导入OC库
-//#import "MJRefresh.h"
+#import "InjectionIIIHelper.h"
 
 // 导入swift库
 #import <SnapKit/SnapKit-Swift.h>
