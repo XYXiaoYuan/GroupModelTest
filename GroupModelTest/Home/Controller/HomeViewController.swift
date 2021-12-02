@@ -26,8 +26,10 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "组模型写法示例"
-        
+        title = "历史记录写法示例"
+        view.backgroundColor = UIColor(red: 243, green: 243, blue: 243)
+        navi_topView.backgroundColor = UIColor.white
+
         setupUI()
         loadData()
     }
@@ -40,7 +42,7 @@ class HomeViewController: BaseViewController {
     private func setupUI() {
         view.addSubview(collectionView)
         collectionView.snp.makeConstraints { (make) in
-            make.top.equalTo(view.snp.top).offset(navbarMaxY)
+            make.top.equalTo(navi_topView.snp.bottom).offset(10)
             make.left.right.bottom.equalToSuperview()
         }
     }

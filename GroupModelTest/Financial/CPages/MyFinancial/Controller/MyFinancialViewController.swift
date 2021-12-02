@@ -229,7 +229,7 @@ extension MyFinancialViewController: UICollectionViewDataSource {
             }
         } else {
             switch groupModel.cellType {
-            case let .myCurrent(_, _), let .myFix(_, _):
+            case .myCurrent(_, _), .myFix(_, _):
                 let footer = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: MyFinancialWealthFooterView.identifier, for: indexPath) as! MyFinancialWealthFooterView
                 return footer
             default:
@@ -332,17 +332,13 @@ extension MyFinancialViewController: UICollectionViewDelegate {
                 return
             }
             
-            /// TODO: 参数model待传递
-            let vc = FinancialDetailViewController(financialType: .current)
-            navigationController?.pushViewController(vc, animated: true)
+            print("点击了活期")
         case let .myFix(_, list):
             guard !list.isEmpty else {
                 return
             }
             
-            /// TODO: 参数model待传递
-            let vc = FinancialDetailViewController(financialType: .fix)
-            navigationController?.pushViewController(vc, animated: true)
+            print("点击了定期")
         }
     }
 }

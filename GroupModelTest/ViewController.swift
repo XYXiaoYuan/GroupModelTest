@@ -57,7 +57,7 @@ private extension ViewController {
     func setupUI() {
         view.addSubview(tableView)
         tableView.snp.makeConstraints { (make) in
-            make.top.equalTo(navi_topView.snp.bottom).offset(20)
+            make.top.equalTo(navi_topView.snp.bottom).offset(10)
             make.left.right.bottom.equalToSuperview()
         }
     }

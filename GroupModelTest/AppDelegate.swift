@@ -21,12 +21,12 @@ import UIKit
             let injectionBundle = Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")
             if let bundle = injectionBundle {
                 try bundle.loadAndReturnError()
+                print("Injection注入成功 🎉🎉🎉")
             } else{
-                print("Injection注入失败,未能检测到Injection")
+                print("Injection注入失败,未能检测到Injection 🥀")
             }
-            
         } catch {
-            print("Injection注入失败\(error)")
+            print("Injection注入失败\(error) 🥀")
         }
         #endif
 

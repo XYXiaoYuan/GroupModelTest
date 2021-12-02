@@ -131,7 +131,7 @@ private extension FinanciaViewController {
             make.top.equalToSuperview().offset(navbarMaxY)
             make.left.equalToSuperview().offset(margin)
             make.right.equalToSuperview().offset(-margin)
-            make.bottom.equalTo(-tabbarH)
+            make.bottom.equalToSuperview()
         }
     }
     

@@ -87,6 +87,8 @@ class FinancialProductCell: UICollectionViewCell {
 // MARK: - Private Methods
 private extension FinancialProductCell {
     func setupUI() {
+        contentView.backgroundColor = .white
+        
         [productNameLabel, profitOf7dayLabel, profitOf7dayNameLabel, totalProfitLabel, possessNumberLabel, bottomLineView].forEach { contentView.addSubview($0) }
         productNameLabel.snp.makeConstraints { (make) in
             make.top.equalToSuperview().offset(14)
