@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C3F9F8127593E0100FE52A7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */; };
+		1C3F9FB527594D8600FE52A7 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9FB427594D8600FE52A7 /* BaseWebViewController.swift */; };
 		1C495B38275913B200896901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C495B37275913B200896901 /* ViewController.swift */; };
 		1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */; };
 		1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4262757E56C0057149B /* FixFinancialViewController.swift */; };
@@ -75,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		1C3F9FB427594D8600FE52A7 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
 		1C495B37275913B200896901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialViewController.swift; sourceTree = "<group>"; };
 		1C71D4262757E56C0057149B /* FixFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +160,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C3F9FB327594D7900FE52A7 /* BaseWebView */ = {
+			isa = PBXGroup;
+			children = (
+				1C3F9FB427594D8600FE52A7 /* BaseWebViewController.swift */,
+			);
+			path = BaseWebView;
+			sourceTree = "<group>";
+		};
 		1C71D40D2757E56C0057149B /* FinancialProduct */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +323,7 @@
 		1C71D49C2757E6980057149B /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				1C3F9FB327594D7900FE52A7 /* BaseWebView */,
 				1CA7108E27591E0F007550E2 /* InjectionIIIHelper */,
 				1C71D4E6275912C10057149B /* Main */,
 				1C71D4C52757E95E0057149B /* Protocol */,
@@ -756,6 +767,7 @@
 				1C71D4EA275912DB0057149B /* NavigationController.swift in Sources */,
 				1C71D4752757E56D0057149B /* FixFinancialView.swift in Sources */,
 				1C71D4842757E56D0057149B /* MyFinancianHeaderModel.swift in Sources */,
+				1C3F9FB527594D8600FE52A7 /* BaseWebViewController.swift in Sources */,
 				BE5F388925A5D0CE0043D7F2 /* HomeReuseFooterView.swift in Sources */,
 				1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */,
 				1C71D4A32757E6980057149B /* GradientView.swift in Sources */,
