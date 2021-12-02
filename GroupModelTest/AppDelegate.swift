@@ -42,7 +42,7 @@ extension AppDelegate {
         window?.backgroundColor = .white
         window?.makeKeyAndVisible()
         
-        let nav = NavigationController(rootViewController: ViewController())
+        let nav = NavigationController(rootViewController: TabBarViewController())
         window?.rootViewController = nav
     }
 }

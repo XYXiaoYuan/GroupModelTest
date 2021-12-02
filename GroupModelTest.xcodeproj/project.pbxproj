@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3F9F8127593E0100FE52A7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */; };
 		1C495B38275913B200896901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C495B37275913B200896901 /* ViewController.swift */; };
 		1C71D4602757E56C0057149B /* CurrentFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */; };
 		1C71D4722757E56D0057149B /* FixFinancialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4262757E56C0057149B /* FixFinancialViewController.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1C495B37275913B200896901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C71D4102757E56C0057149B /* CurrentFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFinancialViewController.swift; sourceTree = "<group>"; };
 		1C71D4262757E56C0057149B /* FixFinancialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixFinancialViewController.swift; sourceTree = "<group>"; };
@@ -413,6 +415,7 @@
 			children = (
 				1C71D4E7275912DB0057149B /* BaseNavigationController.swift */,
 				1C71D4E8275912DB0057149B /* NavigationController.swift */,
+				1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -567,7 +570,7 @@
 		AA89BCB04F6BA162149820F088F57E96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1210;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = cfans;
 				TargetAttributes = {
@@ -738,6 +741,7 @@
 				1C71D47F2757E56D0057149B /* FinancialProductHeaderView.swift in Sources */,
 				1C71D4822757E56D0057149B /* FinancialAssetReusableView.swift in Sources */,
 				1C71D4A12757E6980057149B /* GradientProvide.swift in Sources */,
+				1C3F9F8127593E0100FE52A7 /* TabBarViewController.swift in Sources */,
 				1C71D4A22757E6980057149B /* GradientButton.swift in Sources */,
 				1C71D4832757E56D0057149B /* MyFinancialViewController.swift in Sources */,
 				1C71D4CF2757ECDC0057149B /* ApplyLiveGroupModel.swift in Sources */,
