@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C076807276399CE0099AE7D /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C076806276399CE0099AE7D /* IconAssets.xcassets */; };
 		1C3F9F8127593E0100FE52A7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */; };
 		1C3F9FB527594D8600FE52A7 /* BaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3F9FB427594D8600FE52A7 /* BaseWebViewController.swift */; };
 		1C495B38275913B200896901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C495B37275913B200896901 /* ViewController.swift */; };
@@ -74,6 +75,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C076806276399CE0099AE7D /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
 		1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1C3F9FB427594D8600FE52A7 /* BaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWebViewController.swift; sourceTree = "<group>"; };
 		1C495B37275913B200896901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -470,6 +472,7 @@
 				342F8FD0357B033997698385F1458DE9 /* Home */,
 				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
 				1C495B37275913B200896901 /* ViewController.swift */,
+				1C076806276399CE0099AE7D /* IconAssets.xcassets */,
 				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
 				83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */,
 				BE8F60DA2567D329005DE03F /* SplashScreen.storyboard */,
@@ -615,6 +618,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */,
+				1C076807276399CE0099AE7D /* IconAssets.xcassets in Resources */,
 				BE8F60DF2567D329005DE03F /* SplashScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
