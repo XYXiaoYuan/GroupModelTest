@@ -54,7 +54,6 @@
 		1C71D4E12757ECFA0057149B /* LiveCreateTitleReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D72757ECFA0057149B /* LiveCreateTitleReusableView.swift */; };
 		1C71D4E22757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */; };
 		1C71D4E32757ECFA0057149B /* LiveCreateTypeReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */; };
-		1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C71D4E42757EF050057149B /* IconAssets.xcassets */; };
 		1C71D4E9275912DB0057149B /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4E7275912DB0057149B /* BaseNavigationController.swift */; };
 		1C71D4EA275912DB0057149B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C71D4E8275912DB0057149B /* NavigationController.swift */; };
 		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
@@ -122,7 +121,6 @@
 		1C71D4D72757ECFA0057149B /* LiveCreateTitleReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateTitleReusableView.swift; sourceTree = "<group>"; };
 		1C71D4D82757ECFA0057149B /* LiveCreateBottomButtonReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateBottomButtonReusableView.swift; sourceTree = "<group>"; };
 		1C71D4D92757ECFA0057149B /* LiveCreateTypeReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveCreateTypeReusableView.swift; sourceTree = "<group>"; };
-		1C71D4E42757EF050057149B /* IconAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = IconAssets.xcassets; sourceTree = "<group>"; };
 		1C71D4E7275912DB0057149B /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		1C71D4E8275912DB0057149B /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -473,7 +471,6 @@
 				FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */,
 				1C495B37275913B200896901 /* ViewController.swift */,
 				CD2912114379659807BE6107D55F020B /* Assets.xcassets */,
-				1C71D4E42757EF050057149B /* IconAssets.xcassets */,
 				83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */,
 				BE8F60DA2567D329005DE03F /* SplashScreen.storyboard */,
 				FAEF02DC09CA86523DC3C190934FCA3B /* GroupModelTest-Info.plist */,
@@ -619,7 +616,6 @@
 			files = (
 				EC421A60596DC1744758F53A63709112 /* Assets.xcassets in Resources */,
 				BE8F60DF2567D329005DE03F /* SplashScreen.storyboard in Resources */,
-				1C71D4E52757EF050057149B /* IconAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
