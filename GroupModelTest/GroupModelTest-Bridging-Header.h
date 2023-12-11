@@ -6,7 +6,7 @@
 #define MALL_iOS_Bridging_Header_h
 
 // 导入OC库
-#import "InjectionIIIHelper.h"
+
 
 // 导入swift库
 #import <SnapKit/SnapKit-Swift.h>
@@ -18,5 +18,6 @@
 #import <BaseViewController/BaseViewController-Swift.h>
 #import <Kingfisher/Kingfisher-Swift.h>
 #import <IQKeyboardManagerSwift/IQKeyboardManagerSwift-Swift.h>
+#import <InjectHotReload/InjectHotReload-Swift.h>
 
 #endif

@@ -1,4 +1,4 @@
-platform :ios, '10.0'
+platform :ios, '12.0'
 
 source 'https://github.com/XYXiaoYuan/RSSpecs.git'
 
@@ -14,6 +14,7 @@ def thirdPartyPods
     pod 'EmptyDataSet-Swift', '~> 5.0.0'
     pod 'SDCycleScrollView','1.82'
     pod 'LookinServer', '1.0.4', :configurations => ['Debug']
+    pod 'InjectHotReload', :git => "git@github.com:krzysztofzablocki/Inject.git"
 end
 
 def rsSpecs

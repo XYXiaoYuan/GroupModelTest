@@ -1,0 +1,6 @@
+framework module InjectHotReload {
+  umbrella header "InjectHotReload-umbrella.h"
+
+  export *
+  module * { export * }
+}

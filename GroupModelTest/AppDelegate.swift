@@ -16,20 +16,6 @@ import UIKit
         /// 设置根试图
         setupKeyWindow()
 
-        #if DEBUG
-        do {
-            let injectionBundle = Bundle(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")
-            if let bundle = injectionBundle {
-                try bundle.loadAndReturnError()
-                print("Injection注入成功 🎉🎉🎉")
-            } else{
-                print("Injection注入失败,未能检测到Injection 🥀")
-            }
-        } catch {
-            print("Injection注入失败\(error) 🥀")
-        }
-        #endif
-
         return true
     }
 }

@@ -60,7 +60,6 @@
 		52B96D342ACCB0DB30B74BD87471FA26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA15ADC482D62ED4233DB2A844F75666 /* AppDelegate.swift */; };
 		59E8539AAB48B087BDE349D3B8029C88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */; };
 		6A158D042FF014B255EC7BEB2F5E9415 /* HomeGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */; };
-		6DE57A662758F08200F0BB2F /* InjectionIIIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE57A652758F08200F0BB2F /* InjectionIIIHelper.m */; };
 		8CBB77BAA2F49F81A69EAC3E05D2CA75 /* HistorySearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */; };
 		BE5F383D25A5BDAC0043D7F2 /* GroupProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F383825A5BDAC0043D7F2 /* GroupProvider.swift */; };
 		BE5F385C25A5BF410043D7F2 /* HistorySearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F385725A5BF410043D7F2 /* HistorySearchModel.swift */; };
@@ -127,8 +126,6 @@
 		1C71D4E8275912DB0057149B /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		3BE95B314CE24ED80F75D666CF16771B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4C3D7D5516A52E28EC27E2D884ECC367 /* HomeGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGroupModel.swift; sourceTree = "<group>"; };
-		6DE57A642758F08200F0BB2F /* InjectionIIIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InjectionIIIHelper.h; sourceTree = "<group>"; };
-		6DE57A652758F08200F0BB2F /* InjectionIIIHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InjectionIIIHelper.m; sourceTree = "<group>"; };
 		7EAE4FD6CD755125C05F1E2535413DFC /* GroupModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E2552F57EDC6C5819CA6398B78F519 /* GroupModelTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupModelTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		96E8E16DEBDE9FFEB8928DF66CC34063 /* HistorySearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistorySearchCell.swift; sourceTree = "<group>"; };
@@ -324,7 +321,6 @@
 			isa = PBXGroup;
 			children = (
 				1C3F9FB327594D7900FE52A7 /* BaseWebView */,
-				1CA7108E27591E0F007550E2 /* InjectionIIIHelper */,
 				1C71D4E6275912C10057149B /* Main */,
 				1C71D4C52757E95E0057149B /* Protocol */,
 				BE5F38BF25A6A6B70043D7F2 /* FlowLayout */,
@@ -429,15 +425,6 @@
 				1C3F9F8027593E0100FE52A7 /* TabBarViewController.swift */,
 			);
 			path = Main;
-			sourceTree = "<group>";
-		};
-		1CA7108E27591E0F007550E2 /* InjectionIIIHelper */ = {
-			isa = PBXGroup;
-			children = (
-				6DE57A642758F08200F0BB2F /* InjectionIIIHelper.h */,
-				6DE57A652758F08200F0BB2F /* InjectionIIIHelper.m */,
-			);
-			path = InjectionIIIHelper;
 			sourceTree = "<group>";
 		};
 		342F8FD0357B033997698385F1458DE9 /* Home */ = {
@@ -774,7 +761,6 @@
 				1C71D4C32757E9070057149B /* FinancialPayMentModel.swift in Sources */,
 				1C71D4DA2757ECFA0057149B /* LiveCreateHotCoverReusableView.swift in Sources */,
 				1C71D4DC2757ECFA0057149B /* LiveCreateCategoryReusableView.swift in Sources */,
-				6DE57A662758F08200F0BB2F /* InjectionIIIHelper.m in Sources */,
 				1C71D47B2757E56D0057149B /* FinancialViewController.swift in Sources */,
 				1C71D4882757E56D0057149B /* MyFinancialCurrentCell.swift in Sources */,
 				1C71D4872757E56D0057149B /* MyFinancialGroupModel.swift in Sources */,

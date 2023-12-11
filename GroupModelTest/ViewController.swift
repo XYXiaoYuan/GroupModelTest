@@ -84,13 +84,13 @@ extension ViewController: UITableViewDelegate {
         let pageType = list[indexPath.row]
         switch pageType {
         case .home:
-            let vc = HomeViewController()
+            let vc = Inject.ViewControllerHost(HomeViewController())
             navigationController?.pushViewController(vc, animated: true)
         case .financial:
-            let vc = FinanciaViewController()
+            let vc = Inject.ViewControllerHost(FinanciaViewController())
             navigationController?.pushViewController(vc, animated: true)
         case .apply:
-            let vc = LiveCreateViewController()
+            let vc = Inject.ViewControllerHost(LiveCreateViewController())
             navigationController?.pushViewController(vc, animated: true)
         }
     }
