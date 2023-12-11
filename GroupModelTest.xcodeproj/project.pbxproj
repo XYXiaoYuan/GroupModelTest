@@ -926,7 +926,6 @@
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
@@ -944,8 +943,6 @@
 					"-l\"sqlite3\"",
 					"-framework",
 					"\"Accelerate\"",
-					"-framework",
-					"\"Alamofire\"",
 					"-framework",
 					"\"AlertViewComponent\"",
 					"-framework",
@@ -979,10 +976,6 @@
 					"-framework",
 					"\"MJRefresh\"",
 					"-framework",
-					"\"Moya\"",
-					"-framework",
-					"\"NetworkingComponent\"",
-					"-framework",
 					"\"QuartzCore\"",
 					"-framework",
 					"\"RSBaseConfig\"",
@@ -990,8 +983,6 @@
 					"\"RSExtension\"",
 					"-framework",
 					"\"RSUIProvider\"",
-					"-framework",
-					"\"Result\"",
 					"-framework",
 					"\"SDCycleScrollView\"",
 					"-framework",
@@ -1008,12 +999,10 @@
 					"\"UIKit\"",
 					"-framework",
 					"\"WeakProxyArray\"",
-					"-framework",
-					"\"YYCache\"",
 					"-Xlinker",
 					"-interposable",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi.studydemo12345;
 				PRODUCT_NAME = GroupModelTest;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";
@@ -1034,11 +1023,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 30;
-				DEVELOPMENT_TEAM = 9L3VCJC7LF;
+				DEVELOPMENT_TEAM = T868H8UY96;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Kingfisher\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
@@ -1089,10 +1077,6 @@
 					"-framework",
 					"\"MJRefresh\"",
 					"-framework",
-					"\"Moya\"",
-					"-framework",
-					"\"NetworkingComponent\"",
-					"-framework",
 					"\"QuartzCore\"",
 					"-framework",
 					"\"RSBaseConfig\"",
@@ -1100,8 +1084,6 @@
 					"\"RSExtension\"",
 					"-framework",
 					"\"RSUIProvider\"",
-					"-framework",
-					"\"Result\"",
 					"-framework",
 					"\"SDCycleScrollView\"",
 					"-framework",
@@ -1118,12 +1100,10 @@
 					"\"UIKit\"",
 					"-framework",
 					"\"WeakProxyArray\"",
-					"-framework",
-					"\"YYCache\"",
 					"-Xlinker",
 					"-interposable",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yuan;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lizhi.studydemo12345;
 				PRODUCT_NAME = GroupModelTest;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "${PROJECT_NAME}/GroupModelTest-Bridging-Header.h";

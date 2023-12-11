@@ -1,5 +1,4 @@
 PODS:
-  - Alamofire (5.4.4)
   - AlertViewComponent (0.1.0):
     - RSBaseConfig
     - RSExtension
@@ -20,16 +19,6 @@ PODS:
   - Kingfisher/Core (5.14.1)
   - LookinServer (1.0.4)
   - MJRefresh (3.2.0)
-  - Moya (14.0.0):
-    - Moya/Core (= 14.0.0)
-  - Moya/Core (14.0.0):
-    - Alamofire (~> 5.0)
-  - NetworkingComponent (1.2.2):
-    - HandyJSON (= 5.0.2)
-    - Moya (= 14.0.0)
-    - Result (= 5.0.0)
-    - YYCache (= 1.0.4)
-  - Result (5.0.0)
   - RSBaseConfig (0.0.9):
     - RSBaseConfig/Async (= 0.0.9)
     - RSBaseConfig/AutoInch (= 0.0.9)
@@ -75,7 +64,6 @@ PODS:
     - WeakProxyArray
   - Toast (4.0.0)
   - WeakProxyArray (1.0.0)
-  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AlertViewComponent (= 0.1.0)
@@ -88,7 +76,6 @@ DEPENDENCIES:
   - Kingfisher (= 5.14.1)
   - LookinServer (= 1.0.4)
   - MJRefresh (= 3.2.0)
-  - NetworkingComponent (= 1.2.2)
   - RSBaseConfig (= 0.0.9)
   - RSExtension (= 0.1.0)
   - RSUIProvider (= 0.0.3)
@@ -99,10 +86,7 @@ DEPENDENCIES:
   - Toast (~> 4.0.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - SnapKit
   https://github.com/XYXiaoYuan/RSSpecs.git:
-    - Alamofire
     - AlertViewComponent
     - BaseViewController
     - EmptyDataSet-Swift
@@ -114,22 +98,18 @@ SPEC REPOS:
     - Kingfisher
     - LookinServer
     - MJRefresh
-    - Moya
-    - NetworkingComponent
-    - Result
     - RSBaseConfig
     - RSExtension
     - RSUIProvider
     - SDCycleScrollView
     - SDWebImage
+    - SnapKit
     - SVProgressHUD
     - SwipeTransition
     - Toast
     - WeakProxyArray
-    - YYCache
 
 SPEC CHECKSUMS:
-  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   AlertViewComponent: b4f189d6347603cbb82651c7616de2a16fdd302a
   BaseViewController: 8a4ef6afaf0059b65547bfd4979709f2e001e80e
   EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
@@ -141,9 +121,6 @@ SPEC CHECKSUMS:
   Kingfisher: 8050bc6f7f68cbf3908bd04df7ccbac188f6d6d6
   LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
-  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  NetworkingComponent: 37b4cdadc0e918c1237fd6bb97b4000472265e30
-  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
   RSBaseConfig: 0a4c71bd366577604c8132423dfb866eb38ba010
   RSExtension: 526578ab94f6fea2ea0ffd0b17e75649e4c24727
   RSUIProvider: 8be9c57a5b0eee0d0d72d3f816b1897e336dec9c
@@ -154,8 +131,7 @@ SPEC CHECKSUMS:
   SwipeTransition: a6b0a1bd7584b46b6dfc2f2b7a4da9183b6f45e2
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WeakProxyArray: 61c44549dd6785047607cd97df59a2b135edba86
-  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: acf3c14e31a9f3213821089727b6f0bf23884789
+PODFILE CHECKSUM: e99acd3593a861e92967bc19ba8d490a19c10169
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

@@ -24,7 +24,6 @@ def rsSpecs
   pod 'BaseViewController', '0.1.3'
   pod 'RSUIProvider', '0.0.3'
   pod 'GoodsRankMenuView', '0.0.7'
-  pod 'NetworkingComponent', '1.2.2'
 end
 
 
